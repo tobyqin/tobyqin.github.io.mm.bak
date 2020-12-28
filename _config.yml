@@ -14,19 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Toby Qin
+subtitle: Version 3.0
+name: Toby Qin
+logo: "apple-touch-icon.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is another blog to share thoughts and experience in software testing and DevOps.
+
 twitter_username: toby_qin
 github_username: tobyqin
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: /posts/:year-:month-:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Chongqing # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -56,39 +60,40 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Toby Qin"
-  avatar : "https://avatars1.githubusercontent.com/u/14037644" #"/assets/images/bio-photo.jpg"
-  bio    : "Software Engineer in Testing and DevOps, Cloud Native :-)"
+  name: 'Toby Qin'
+  avatar: 'https://avatars1.githubusercontent.com/u/14037644' #"/assets/images/bio-photo.jpg"
+  bio: 'Software Engineer in Testing and DevOps, Cloud Native :-)'
+  location: "Shanghai, China"
   links:
-    - label: "CnBlogs"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.cnblogs.com/cicaday/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tobyqin"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/toby_qin"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/toby-qin-2684a630/"
+    - label: 'CnBlogs'
+      icon: 'fas fa-fw fa-link'
+      url: 'https://www.cnblogs.com/cicaday/'
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/tobyqin'
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      url: 'https://twitter.com/toby_qin'
+    - label: 'LinkedIn'
+      icon: 'fab fa-fw fa-linkedin'
+      url: 'https://www.linkedin.com/in/toby-qin-2684a630/'
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tobyqin"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/toby_qin"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/toby-qin-2684a630/"
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/tobyqin'
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      url: 'https://twitter.com/toby_qin'
+    - label: 'LinkedIn'
+      icon: 'fab fa-fw fa-linkedin'
+      url: 'https://www.linkedin.com/in/toby-qin-2684a630/'
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
@@ -97,9 +102,10 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
-      path: "_pages"
+      path: '_pages'
       type: pages
     values:
       layout: single
@@ -111,3 +117,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  comments:
+    provider: "disqus"
+    disqus:
+      shortname: "https-betacat-online"
