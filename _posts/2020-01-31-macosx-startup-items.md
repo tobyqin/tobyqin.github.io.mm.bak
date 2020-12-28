@@ -3,6 +3,7 @@ title: 管理MacOSX的开机启动项
 categories: [Tech]
 tags: [macosx,startup]
 date: 2020-01-31
+layout: posts
 ---
 
 MacOSX下的开机项有多乱，需要整理一下。

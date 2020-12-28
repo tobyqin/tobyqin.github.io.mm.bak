@@ -1,9 +1,9 @@
 ---
 title: Linux免密码登录SSH
 categories: [Tech]
-tags: [linux,ssh,shell]
+tags: [linux, ssh, shell]
 date: 2020-02-23
-layout: post
+layout: posts
 ---
 
 无密钥登录可以更快乐一点。
@@ -18,7 +18,7 @@ ssh-keygen -t rsa     ##-t rsa可以省略，默认就是生成rsa类型的密�
 
 按提示会在当前主机的 ~/.ssh 生成 id_rsa, id_rsa.pub 。
 
-第二步，将公钥id_rsa.pub复制到目标主机的 ~/.ssh/authorized_keys 中。方法很多，推荐使用 ssh-copy-id
+第二步，将公钥 id_rsa.pub 复制到目标主机的 ~/.ssh/authorized_keys 中。方法很多，推荐使用 ssh-copy-id
 
 ```sh
 # Copy your keys to the remote machine:
@@ -59,5 +59,3 @@ ssh root@192.168.1.1 # 使用root
 ![img](https://tobyqin.github.io/images/1586336-20190213210725731-973454197.png)
 
 参考文章：https://www.cnblogs.com/henkeyi/p/10487553.html
-
-

@@ -3,8 +3,9 @@ title: nginx常用命令
 categories: [Tech]
 tags: [nginx]
 date: 2020-03-28
-layout: post
+layout: posts
 ---
+
 ```bash
 nginx -t           #测试配置文件
 nginx              #启动命令
@@ -14,4 +15,3 @@ nginx -s reload    #重启命令
 ps -ef |grep nginx #查看进程命令
 nginx -v           #查看Nginx的版本号
 ```
-

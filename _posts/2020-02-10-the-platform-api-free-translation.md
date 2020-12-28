@@ -3,6 +3,7 @@ title: 各平台免费翻译API
 categories: [Tech]
 tags: [free, api,translator]
 date: 2020-02-10
+layout: posts
 ---
 收集一下，用的上。
 

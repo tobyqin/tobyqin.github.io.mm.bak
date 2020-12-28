@@ -1,10 +1,11 @@
 ---
 title: 在线面试编码能力
 categories: [Tech]
-tags: [tools,interview]
+tags: [tools, interview]
 date: 2020-03-02
-layout: post
+layout: posts
 ---
+
 在线面试候选人编码能力可以用一些实时共享的编辑器。Talk is cheap, show me the code.
 
 <!-- more -->
@@ -13,7 +14,7 @@ layout: post
 
 ![image-20200302201514635](https://tobyqin.github.io/images/image-20200302201514635.png)
 
-国内的服务器，域名好念，支持语法高亮，带运行环境，还可以事先准备面试题。唯一的缺点是需要登录，可以用GitHub快速登录。但是你想啊，如果你电话里念完地址后，回车后居然还要注册登录，尴尬。
+国内的服务器，域名好念，支持语法高亮，带运行环境，还可以事先准备面试题。唯一的缺点是需要登录，可以用 GitHub 快速登录。但是你想啊，如果你电话里念完地址后，回车后居然还要注册登录，尴尬。
 
 ## CollabEdit
 
@@ -23,7 +24,7 @@ layout: post
 
 ## 其他
 
-如果有条件到Google搜一下，类似的服务还有好几个，可不可靠需要自己验证，关键字：Online Realtime Code Editor
+如果有条件到 Google 搜一下，类似的服务还有好几个，可不可靠需要自己验证，关键字：Online Realtime Code Editor
 
 - https://codeshare.io/
 - https://codebunk.com/
@@ -33,4 +34,4 @@ layout: post
 
 ![image-20200302205519798](https://tobyqin.github.io/images/image-20200302205519798.png)
 
-描述可以有点苍白，有兴趣的同学可以去体验一下，有点像OJ（Online Jude）刷题。
+描述可以有点苍白，有兴趣的同学可以去体验一下，有点像 OJ（Online Jude）刷题。

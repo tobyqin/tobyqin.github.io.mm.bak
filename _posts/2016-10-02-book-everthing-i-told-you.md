@@ -3,6 +3,7 @@ title: 读书 - 《无声告白》
 date: 2016-10-02 09:35:21
 tags: book
 categories: Reading
+layout: posts
 ---
 
 <center>文/大橙子

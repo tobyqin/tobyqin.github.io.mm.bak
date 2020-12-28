@@ -1,11 +1,12 @@
 ---
 title: CentOS里的防火墙配置
 categories: [Tech]
-tags: [linux,centos,firewall]
+tags: [linux, centos, firewall]
 date: 2020-03-06
-layout: post
+layout: posts
 ---
-CentOS 6 以前，内置的防火墙是iptables，升级到7以后就变成了 firwalld。
+
+CentOS 6 以前，内置的防火墙是 iptables，升级到 7 以后就变成了 firwalld。
 
 <!-- more -->
 
@@ -29,11 +30,11 @@ service iptables restartd  #重启防火墙
 /etc/init.d/iptables status
 ```
 
-3.打开某个端口(以8080为例)
+3.打开某个端口(以 8080 为例)
 
 ```sh
 # 开启端口
-iptables -A INPUT -p tcp --dport 8080 -j ACCEPT 
+iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 
 # 保存并重启防火墙
 /etc/rc.d/init.d/iptables save
@@ -43,7 +44,7 @@ iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 4.打开`49152~65534`之间的端口
 
 ```sh
-iptables -A INPUT -p tcp --dport 49152:65534 -j ACCEPT  
+iptables -A INPUT -p tcp --dport 49152:65534 -j ACCEPT
 ```
 
 同样，这里需要对设置进行保存，并重启防火墙。
@@ -65,14 +66,14 @@ vi /etc/sysconfig/iptables
 参数说明:
 
 - –A 参数就看成是添加一条规则
-- –p 指定是什么协议，我们常用的tcp 协议，当然也有udp，例如53端口的DNS
+- –p 指定是什么协议，我们常用的 tcp 协议，当然也有 udp，例如 53 端口的 DNS
 - –dport 就是目标端口，当数据从外部进入服务器为目标端口
 - –sport 数据从服务器出去，则为数据源端口使用
 - –j 就是指定是 ACCEPT -接收 或者 DROP 不接收
 
 ## firewalld
 
-Centos7默认安装了firewalld，如果没有安装的话，可以使用 `yum install firewalld firewalld-config`进行安装。
+Centos7 默认安装了 firewalld，如果没有安装的话，可以使用 `yum install firewalld firewalld-config`进行安装。
 
 1.启动、关闭、重启防火墙
 
@@ -90,11 +91,11 @@ firewall-cmd --complete-reload    # 更新规则，重启服务
 
 ```sh
 systemctl status firewalld
-#或者 
+#或者
 firewall-cmd --state
 ```
 
-3.查看和管理区域zone
+3.查看和管理区域 zone
 
 ```sh
 # 查看当前配置的区域
@@ -128,9 +129,9 @@ Firewall 能将不同的网络连接归类到不同的信任级别，Zone 提供
 - internal: 同上，范围针对所有互联网用户
 - trusted: 信任所有连接
 
-4.恐慌模式：拒绝所有包
+  4.恐慌模式：拒绝所有包
 
-panic本意是恐慌，如果服务器遭受攻击时可以打开恐慌模式来决绝所有进包和出包，也称为“禁行模式”。但是已经建立的连接不会被强制断开，只是无法通信了而已。注意，如果你是ssh连接上去的话，一旦打开恐慌模式就失去和服务器的连接。
+panic 本意是恐慌，如果服务器遭受攻击时可以打开恐慌模式来决绝所有进包和出包，也称为“禁行模式”。但是已经建立的连接不会被强制断开，只是无法通信了而已。注意，如果你是 ssh 连接上去的话，一旦打开恐慌模式就失去和服务器的连接。
 
 ```sh
 # 打开恐慌模式，拒绝所有包

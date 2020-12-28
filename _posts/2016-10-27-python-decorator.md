@@ -3,6 +3,7 @@ title: 详解Python的装饰器
 categories: Tech
 tags: [python,python decorator]
 date: 2016-10-27
+layout: posts
 ---
 
 Python中的装饰器是你进入Python大门的一道坎，不管你跨不跨过去它都在那里。

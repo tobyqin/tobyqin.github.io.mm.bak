@@ -1,11 +1,12 @@
 ---
 title: 详解Linux里的 /etc/passwd
 categories: [Tech]
-tags: [linux,bash]
+tags: [linux, bash]
 date: 2020-02-28
-layout: post
+layout: posts
 ---
-深入了解Linux的系统用户配置文件。
+
+深入了解 Linux 的系统用户配置文件。
 
 <!-- more -->
 

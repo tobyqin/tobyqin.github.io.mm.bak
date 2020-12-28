@@ -3,6 +3,7 @@ title: Python中的下划线和双下划线
 date: 2016-10-11 22:26:46
 tags: [python,python underscore,tips]
 categories: Tech
+layout: posts
 ---
 下划线在Python中有很特别的意义。
 

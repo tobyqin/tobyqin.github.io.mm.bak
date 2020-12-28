@@ -3,6 +3,7 @@ title: 理解 Git Diff 命令
 date: 2017-03-09 23:04:51
 tags: [git,tips]
 categories: Tech
+layout: posts
 ---
 
 你确定自己会`git diff` 吗？

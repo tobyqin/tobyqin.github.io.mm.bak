@@ -3,7 +3,7 @@ title: Linux里的计划任务
 categories: [Tech]
 tags: [linux，cron，crontab，anacron]
 date: 2020-03-07
-layout: post
+layout: posts
 ---
 
 cron 是 Linux 内置的计划任务程序。
@@ -16,7 +16,7 @@ anacron 可以看做是 cron 的补充程序，可以每月，每周，每天执
 
 ## cron 服务
 
-cron服务的守护进程是crond。
+cron 服务的守护进程是 crond。
 
 ```
 启动：service crond start
@@ -38,7 +38,7 @@ systemctl enable crond
 crontab -u     # 设定某个用户的cron服务，一般root用户在执行这个命令的时候需要此参数
 crontab -l     # 列出某个用户cron服务的详细内容
 crontab -r     # 删除某个用户的cron服务，这个命令最没用还容易按错！！！
-crontab -e     # 编辑某个用户的cron服务 
+crontab -e     # 编辑某个用户的cron服务
 crontab <file> # 将 <file> 恢复至crontab
 
 # 查看自己的cron设置
@@ -61,7 +61,7 @@ crontab -u toby -r
 比如 /var/spool/cron/toby
 ```
 
-crontab文件的内容：
+crontab 文件的内容：
 
 ```sh
 SHELL=/bin/bash
@@ -73,7 +73,7 @@ HOME=/
 01 * * * * root echo hello
 ```
 
-前半部分用于声明环境变量，这四个变量是固定的，但值可以改。后半部分就是具体的任务，建议任务前用#号加以注释，方便以后管理。关于cron语法，可以参考其他文档或自行搜索：
+前半部分用于声明环境变量，这四个变量是固定的，但值可以改。后半部分就是具体的任务，建议任务前用#号加以注释，方便以后管理。关于 cron 语法，可以参考其他文档或自行搜索：
 
 ```
 # Example of job definition:
@@ -86,7 +86,7 @@ HOME=/
 # *  *  *  *  * user-name  command to be executed
 ```
 
-crontab 配置修改后不用重启服务，Linux会自动加载最新的改动。每次任务执行完毕后会将执行日志写到 `/var/log/cron`，可以通过 tail 命令排错。
+crontab 配置修改后不用重启服务，Linux 会自动加载最新的改动。每次任务执行完毕后会将执行日志写到 `/var/log/cron`，可以通过 tail 命令排错。
 
 ### 注意事项
 
@@ -108,7 +108,7 @@ crontab ~/mycrontab
 0 * * * * . /etc/profile;/bin/sh /var/my.sh
 ```
 
-定时重启的任务需要root权限：
+定时重启的任务需要 root 权限：
 
 ```
 0 0 * * * root /sbin/reboot
@@ -121,7 +121,7 @@ anacron 算是 crontab 补充。假如你的服务器因为某些原因关机了
 但如果你把备份任务写到 anacron 里，服务器重启后依然会去执行你的任务。anacron 会通过计算记录文件的时间戳来判断上次任务是否已经执行，anacron 没那么灵活，只能按天，周，月配置任务。
 
 ```
-anacron 配置文件： 
+anacron 配置文件：
 /etc/anacrontab
 ```
 

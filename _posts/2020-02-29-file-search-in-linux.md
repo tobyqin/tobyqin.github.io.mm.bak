@@ -1,9 +1,9 @@
 ---
 title: Linux中的文件搜索
 categories: [Tech]
-tags: [linux,find,grep]
+tags: [linux, find, grep]
 date: 2020-02-29
-layout: post
+layout: posts
 ---
 
 我们经常需要搜索文件名或者文件内容。
@@ -17,6 +17,7 @@ layout: post
 ```
 find < path > < expression > < cmd >
 ```
+
 - `path`： 所要搜索的目录及其所有子目录。默认为当前目录。
 - `expression`： 所要搜索的文件的特征。
 - `cmd`： 对搜索结果进行特定的处理。
@@ -42,7 +43,7 @@ find ./ -size 0 | xargs rm -f &
 
 ## 搜索文件内容
 
-可以用grep命令。
+可以用 grep 命令。
 
 ```bash
 # 搜索包含docker的文件，并打印命中行
@@ -68,4 +69,3 @@ find ./ -name "*.py" -exec grep -l "docker" {} \;
 ```
 
 用 `find` 可以先对文件名或者类型先做一次过滤，再具体到内容搜索。
-

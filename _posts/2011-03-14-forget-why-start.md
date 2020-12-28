@@ -3,6 +3,7 @@ title: 走得太远，忘记了为什么出发
 categories: Life
 tags: Reading
 date: 2011-03-14
+layout: posts
 ---
 > 可以颠覆掉所有的春天
 > 用一小片枯薄了的秋叶

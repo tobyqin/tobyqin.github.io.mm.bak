@@ -1,17 +1,18 @@
 ---
 title: N1用Docker刷旁路由
 categories: [Tech]
-tags: [tips,n1,docker,route,armbian]
+tags: [tips, n1, docker, route, armbian]
 date: 2020-05-02
-layout: post
+layout: posts
 ---
-前提条件是docker已经安装，用网线连接N1。
+
+前提条件是 docker 已经安装，用网线连接 N1。
 
 <!-- more -->
 
 ## 准备工作
 
-安装Portainer很有用。
+安装 Portainer 很有用。
 
 ```bash
 docker volume create portainer_data
@@ -24,7 +25,7 @@ docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v porta
 ip link set eth0 promisc on
 ```
 
-创建docker虚拟网络，IP段需要和主路由的一致。
+创建 docker 虚拟网络，IP 段需要和主路由的一致。
 
 ```bash
 docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.254 -o parent=eth0 macnet
@@ -32,15 +33,15 @@ docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.254
 
 `192.168.1.254` 就是旁路由的地址，后面的登录和配置都要用这个地址。
 
-## 配置OpenWrt
+## 配置 OpenWrt
 
-运行OpenWrt容器。
+运行 OpenWrt 容器。
 
 ```bash
 docker run --restart always --name=openwrt -d --network macnet --privileged unifreq/openwrt-aarch64:latest
 ```
 
-进入OpenWrt的shell，修改网络。
+进入 OpenWrt 的 shell，修改网络。
 
 ```bash
 docker exec -it openwrt bash
@@ -68,13 +69,13 @@ http://192.168.1.254/
 # 默认用户名密码 root / password
 ```
 
-修改网络接口，使用主路由网关和DNS。
+修改网络接口，使用主路由网关和 DNS。
 
 ![image-20200502154013741](https://tobyqin.github.io/images/image-20200502154013741.png)
 
 ![image-20200502154126282](https://tobyqin.github.io/images/image-20200502154126282.png)
 
-关闭旁路由DHCP服务。
+关闭旁路由 DHCP 服务。
 
 ![image-20200502154244314](https://tobyqin.github.io/images/image-20200502154244314.png)
 
@@ -93,13 +94,13 @@ docker rm openwrt
 
 ![image-20200502162133900](https://tobyqin.github.io/images/image-20200502162133900.png)
 
-第二种方式，主路由全局模式。经旁路由的网关配置到主路由的DHCP即可，以后所有连接主路由的设备都会先经过旁路由。
+第二种方式，主路由全局模式。经旁路由的网关配置到主路由的 DHCP 即可，以后所有连接主路由的设备都会先经过旁路由。
 
-配置方法就是进入主路由后台，将DHCP默认网关改成 192.168.1.254，DNS也改成这个地址。已经连接的设备重新连接主路由一下才会生效。
+配置方法就是进入主路由后台，将 DHCP 默认网关改成 192.168.1.254，DNS 也改成这个地址。已经连接的设备重新连接主路由一下才会生效。
 
 ![image-20200502162550814](https://tobyqin.github.io/images/image-20200502162550814.png)
 
-一般用第一种方式测试一下旁路由是不是正常工作了，然后我会全局都走旁路由。我发现N1放那么几天就会死机，所有最后配置一下自动重启，比如每天重启一次。
+一般用第一种方式测试一下旁路由是不是正常工作了，然后我会全局都走旁路由。我发现 N1 放那么几天就会死机，所有最后配置一下自动重启，比如每天重启一次。
 
 ## 旁路由的作用
 
@@ -113,7 +114,7 @@ docker rm openwrt
 
 参考文章：
 
-* https://instar.me/archives/e806f8ac.html
-* https://post.smzdm.com/p/akm7q5xk/
-* http://hostloc.com/thread-532624-1-1.html
-* https://leeyr.com/326.html
+- https://instar.me/archives/e806f8ac.html
+- https://post.smzdm.com/p/akm7q5xk/
+- http://hostloc.com/thread-532624-1-1.html
+- https://leeyr.com/326.html

@@ -3,6 +3,7 @@ title: 读书 - 《追风筝的人》
 date: 2016-09-27 13:14:53
 tags: book
 categories: Reading
+layout: posts
 ---
 
 <center>文/大橙子

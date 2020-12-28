@@ -3,6 +3,7 @@ title: MacOSX 活动监视器其他信息都不见了
 categories: [Tech]
 tags: [macosx,tips]
 date: 2020-02-08
+layout: posts
 ---
 
 MacOSX下的任务管理器出问题了。

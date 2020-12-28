@@ -3,6 +3,7 @@ title: Find and replace text with Python
 date: 2016-10-10 13:32:03
 tags: [python,regex]
 categories: Tech
+layout: posts
 ---
 
 Tips of Python programming.

@@ -3,6 +3,7 @@ title: 安青事件详细过程
 categories: Life
 tags: AHU
 date: 2008-07-16
+layout: posts
 ---
 狗血的青春。
 

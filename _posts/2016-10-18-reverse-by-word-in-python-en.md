@@ -3,6 +3,7 @@ title: Reverse string by word with Python
 date: 2016-10-18 09:46:00
 tags: [python,regex]
 categories: Quiz
+layout: posts
 ---
 **Reverse string by word** is a very popular interview question. In python you can solve it easily with code like below.
 

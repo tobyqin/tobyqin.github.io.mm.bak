@@ -3,6 +3,7 @@ title: Linux里的文件传输
 categories: [Tech]
 tags: [Linux,shell]
 date: 2020-02-16
+layout: posts
 ---
 如果要和Linux交换文件怎么办？
 

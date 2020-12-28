@@ -3,6 +3,7 @@ title: 斐讯N1的折腾之路
 categories: [Tech]
 tags: [Linux, N1, Armbian, Docker]
 date: 2020-02-09
+layout: posts
 ---
 N1买了又一段时间了，最开始卖家刷的是yyf电视系统，用的不是很满意。
 

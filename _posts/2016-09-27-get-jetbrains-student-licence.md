@@ -3,6 +3,7 @@ title: 使用教育邮箱激活JetBrains全家桶
 date: 2016-09-27 15:27:14
 tags: [JetBrains, tips]
 categories: Tech
+layout: posts
 ---
 
 ![](https://raw.githubusercontent.com/tobyqin/img/master/20190208185616.png)

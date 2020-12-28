@@ -3,6 +3,7 @@ title: 在Python中查找和替换文本
 date: 2016-10-10 13:32:03
 tags: [python,regex]
 categories: Tech
+layout: posts
 ---
 
 Python编程中的小技巧。

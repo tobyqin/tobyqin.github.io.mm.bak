@@ -3,14 +3,14 @@ title: Linux的压缩和解压
 categories: [Tech]
 tags: [linux，zip，unzip，tar]
 date: 2020-03-08
-layout: post
+layout: posts
 ---
 
 最常用的是 zip 和 tar 命令。
 
 <!-- more -->
 
-## 1.zip命令
+## 1.zip 命令
 
 ```bash
 # 将指定目录压缩成zip文件
@@ -32,11 +32,11 @@ zip compressed.zip path/to/file
 zip -d compressed.zip "foo/*.tmp"
 ```
 
-zip可以将当前文件夹压缩至当前文件夹，比如 /home/toby => /home/toby/toby.zip
+zip 可以将当前文件夹压缩至当前文件夹，比如 /home/toby => /home/toby/toby.zip
 
-## 2.unzip命令
+## 2.unzip 命令
 
-与zip命令相反，这是解压命令。
+与 zip 命令相反，这是解压命令。
 
 ```bash
 # 解压文件，用空格来接受多个文件
@@ -49,9 +49,7 @@ unzip compressed_file(s) -d /path/to/put/extracted_file(s)
 unzip -l file.zip
 ```
 
-
-
-## 3.tar命令
+## 3.tar 命令
 
 ```bash
 # 只是打包成 tar
@@ -72,5 +70,3 @@ tar tvf source.tar
 # 解压tar里符合规则的文件
 tar xf source.tar --wildcards "*.html"
 ```
-
-

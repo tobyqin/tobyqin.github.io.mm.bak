@@ -1,17 +1,18 @@
 ---
 title: 命令行配置备忘
 categories: [Tech]
-tags: [linux,shell,bash,alias]
+tags: [linux, shell, bash, alias]
 date: 2020-04-04
-layout: post
+layout: posts
 ---
+
 换到新的机器，命令行配置少不了。
 
 <!-- more -->
 
 ## zsh & oh-my-zsh
 
-大概是需要代理加速的，下面是简要步骤，适用于MacOS或者Linux平台。
+大概是需要代理加速的，下面是简要步骤，适用于 MacOS 或者 Linux 平台。
 
 ```sh
 # 安装zsh，各平台命令不一样，但差不多
@@ -60,13 +61,13 @@ alias grep="grep --color=auto"
 
 ## autojump
 
-autojump是一个很方便的让你跳转目录的命令行工具。需要额外安装，在MacOSX可以用brew安装。
+autojump 是一个很方便的让你跳转目录的命令行工具。需要额外安装，在 MacOSX 可以用 brew 安装。
 
 ```bash
 brew install autojump
 ```
 
-在其他Linux平台需要从源码安装。
+在其他 Linux 平台需要从源码安装。
 
 ```bash
 git clone git://github.com/wting/autojump.git
@@ -81,7 +82,7 @@ cd autojump
 [[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
 ```
 
-然后重启命令行就可以开心的autojump了。
+然后重启命令行就可以开心的 autojump 了。
 
 ```
 j toby  # cd 到带有toby的最近目录
@@ -89,17 +90,17 @@ j music # cd 到有可能是music的目录
 j doc   # cd 到有可能是doc的目录
 ```
 
-autojump非常智能，你只要给少量关键字就可以cd到你想要到的目录。
+autojump 非常智能，你只要给少量关键字就可以 cd 到你想要到的目录。
 
 ## autosuggestions
 
-有了oh-my-zsh 大部分命令是可以通过TAB补全的，autosuggestion可以锦上添花。但这玩意还是需要额外安装。
+有了 oh-my-zsh 大部分命令是可以通过 TAB 补全的，autosuggestion 可以锦上添花。但这玩意还是需要额外安装。
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-然后在zsh的配置文件里启用即可，参考上文。
+然后在 zsh 的配置文件里启用即可，参考上文。
 
 ```
 plugins=(zsh-autosuggestions)
@@ -184,4 +185,3 @@ alias ngxconf='sudo vi /etc/nginx/conf/nginx.conf && ngxtest'
 
 alias help='tldr'
 ```
-

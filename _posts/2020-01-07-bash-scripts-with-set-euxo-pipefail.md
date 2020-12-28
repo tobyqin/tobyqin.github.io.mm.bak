@@ -3,6 +3,7 @@ title: Bash 脚本中的 set -euxo pipefail
 categories: [Tech]
 tags: [bash,shell]
 date: 2020-01-07
+layout: posts
 ---
 
 有些开发人员会用Bash来实现很复杂的功能，就像使用别的高级语言一样。他可能觉得自己很牛逼但其他人早就想锤爆他了，Bash的可读性和可维护性远远低于任何高级语言。更要命的是，Bash并没有方便的调试工具和防错机制，出了问题你要排查半天。

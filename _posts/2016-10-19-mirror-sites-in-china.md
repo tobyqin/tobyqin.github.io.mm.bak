@@ -3,6 +3,7 @@ title: Chrome, Andriod, JRE, Selenium各种开源工具的国内镜像
 date: 2016-10-19 13:29:04
 tags: tips
 categories: Tech
+layout: posts
 ---
 在国内很多时候不翻墙真的很难做开发，本篇博客收集了一些知名工具和类库的国内镜像，当你没有VPN时，说不定能帮上你的大忙。
 

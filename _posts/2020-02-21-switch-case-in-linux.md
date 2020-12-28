@@ -3,6 +3,7 @@ title: Linux中的Switch Case
 categories: [Tech]
 tags: [Linux,bash,tips,shell]
 date: 2020-02-21
+layout: posts
 ---
 如果`if`判断超过3次，那么可以考虑换成`switch case`了。
 

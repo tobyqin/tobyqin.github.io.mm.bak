@@ -3,6 +3,7 @@ title: Linux中的任务管理器
 categories: [Tech]
 tags: [Linux,top,shell]
 date: 2020-02-12
+layout: posts
 ---
 在Linux中有一个命令叫`top`，作用和Windows下的任务管理器差不多。
 
