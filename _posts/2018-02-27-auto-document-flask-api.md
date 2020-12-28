@@ -1,13 +1,14 @@
 ---
+layout: post
 title: 自动为Flask写的API生成帮助文档
 categories: [Tech]
 tags: [python,flask,api-doc]
 date: 2018-02-27
 ---
 
-Flask是Python一个非常轻量的库，可以让你毫不费力地写一个简单的网站。如果你需要写一些后台API或者准备自动化测试数据时，Flask是一个非常不错的选择。
+{% raw %}
 
-<!-- more -->
+Flask是Python一个非常轻量的库，可以让你毫不费力地写一个简单的网站。如果你需要写一些后台API或者准备自动化测试数据时，Flask是一个非常不错的选择。
 
 ## 一个API例子
 
@@ -203,3 +204,4 @@ python main.py
 ```
 
 如果你觉得Demo不错，欢迎给个Star。有建议或者想法也可以拿来讨论。
+{% endraw %}
