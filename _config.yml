@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Toby Qin
-subtitle: Version 3.0
+subtitle: Practice the philosophy of continuous improvement.
 name: Toby Qin
 logo: "apple-touch-icon.png"
 email:
@@ -61,7 +61,8 @@ plugins:
 
 author:
   name: 'Toby Qin'
-  avatar: 'https://avatars1.githubusercontent.com/u/14037644' #"/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/avatar.jpg"
+  # avatar: 'https://avatars1.githubusercontent.com/u/14037644'
   bio: 'Software Engineer in Testing and DevOps, Cloud Native :-)'
   location: "Shanghai, China"
   links:
