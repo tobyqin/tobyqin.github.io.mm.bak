@@ -1,10 +1,11 @@
 ---
 title: Linux新建用户没有用户目录
 categories: [Tech]
-tags: [Linux,shell]
+tags: [Linux, shell]
 date: 2020-02-09
-layout: posts
+layout: single
 ---
+
 简而言之，用`adduser`而不是`useradd`，用`deluser`而不是`userdel`。
 
 <!-- more -->
@@ -47,8 +48,8 @@ chown user1:user1 /home/user1 -R # owner改成user1
 
 # 给用户加密码
 passwd user1
-Enter new UNIX password: 
-Retype new UNIX password: 
+Enter new UNIX password:
+Retype new UNIX password:
 passwd: password updated successfully
 
 # 删除用户
@@ -57,7 +58,7 @@ userdel user2 # 保留home目录
 
 ```
 
-当然，如果误删除了用户的home目录可以可以用上面的方法来修复。关于`adduser`和`deluser`的尝试：
+当然，如果误删除了用户的 home 目录可以可以用上面的方法来修复。关于`adduser`和`deluser`的尝试：
 
 ```shell
 root@aml:~# adduser user3
@@ -66,16 +67,16 @@ Adding new group `user3' (1002) ...
 Adding new user `user3' (1002) with group `user3' ...
 Creating home directory `/home/user3' ...
 Copying files from `/etc/skel' ...
-Enter new UNIX password: 
-Retype new UNIX password: 
+Enter new UNIX password:
+Retype new UNIX password:
 passwd: password updated successfully
 Changing the user information for user3
 Enter the new value, or press ENTER for the default
-        Full Name []: 
-        Room Number []: 
-        Work Phone []: 
-        Home Phone []: 
-        Other []: 
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
 Is the information correct? [Y/n]Y
 
 root@aml:~# deluser user3
@@ -96,7 +97,4 @@ Done.
 
 **参考：**
 
-- [linux使用useradd创建的用户没有目录的解决办法](https://www.cnblogs.com/sogeisetsu/p/11401562.html)
-
-
-
+- [linux 使用 useradd 创建的用户没有目录的解决办法](https://www.cnblogs.com/sogeisetsu/p/11401562.html)

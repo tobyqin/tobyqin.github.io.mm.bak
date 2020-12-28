@@ -3,7 +3,7 @@ title: N1用Docker刷旁路由
 categories: [Tech]
 tags: [tips, n1, docker, route, armbian]
 date: 2020-05-02
-layout: posts
+layout: single
 ---
 
 前提条件是 docker 已经安装，用网线连接 N1。

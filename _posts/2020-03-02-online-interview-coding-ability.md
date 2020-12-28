@@ -3,7 +3,7 @@ title: 在线面试编码能力
 categories: [Tech]
 tags: [tools, interview]
 date: 2020-03-02
-layout: posts
+layout: single
 ---
 
 在线面试候选人编码能力可以用一些实时共享的编辑器。Talk is cheap, show me the code.

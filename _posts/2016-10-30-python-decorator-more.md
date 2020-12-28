@@ -1,18 +1,18 @@
 ---
 title: Python装饰器的另类用法
 categories: Tech
-tags: [python,python decorator]
+tags: [python, python decorator]
 date: 2016-10-30
-layout: posts
+layout: single
 ---
 
-之前有比较系统介绍过Python的装饰器（请查阅《[详解Python装饰器](https://tobyqin.github.io/posts/2016-10-27/python-decorator/)》），本文算是一个补充。今天我们一起探讨一下装饰器的另类用法。
+之前有比较系统介绍过 Python 的装饰器（请查阅《[详解 Python 装饰器](https://tobyqin.github.io/posts/2016-10-27/python-decorator/)》），本文算是一个补充。今天我们一起探讨一下装饰器的另类用法。
 
 <!-- more -->
 
 ## 语法回顾
 
-开始之前我们再将Python装饰器的语法回顾一下。
+开始之前我们再将 Python 装饰器的语法回顾一下。
 
 ```python
 @decorate
@@ -30,6 +30,7 @@ f = decorate(f)
 ```
 
 @语法的好处在于：
+
 - 相同的函数名只出现一次，避免了`f = decorate(f)`这样的语句。
 - 可读性更高，让读代码的人一眼就明白这个函数被装饰了哪些功能。
 
@@ -136,7 +137,7 @@ print table  # [0, 1, 2, 3, 4]
 
 ## 类装饰器
 
-在Python 2.6以前，还不支持类装饰器。也就是说，你不能使用这样的写法。
+在 Python 2.6 以前，还不支持类装饰器。也就是说，你不能使用这样的写法。
 
 ```python
 @decorator
@@ -153,7 +154,7 @@ class MyClass(object):
 MyClass = decorator(MyClass)
 ```
 
-也就是说，@语法对类是做了特殊处理的，类不一定是一个callable对象（尽管它有构造函数），但是也允许使用装饰器。那么基于以上语法，你觉得类装饰器能实现什么功能呢？
+也就是说，@语法对类是做了特殊处理的，类不一定是一个 callable 对象（尽管它有构造函数），但是也允许使用装饰器。那么基于以上语法，你觉得类装饰器能实现什么功能呢？
 
 举一个例子，[ptest](https://pypi.python.org/pypi/ptest)中的`@TestClass()`用于声明一个测试类，其源代码大致如此。
 
@@ -194,9 +195,8 @@ print TestCases.__dict__  # {'__module__': '__main__', '__enabled__': True, '__p
 
 当装饰器在被使用时，`TestClass()`函数会马上被执行并返回一个装饰器函数，这个函数是一个闭包函数，保存了`enabled`和`run_mode`两个变量。另外它还接受一个类作为参数，并使用之前保存的变量为这个类添加属性，最后返回。所以经过`@TestClass()`装饰过的类都会带上`__enabled__`、`__pd_type__`以及`__run_mode__`的属性。
 
-由此可见，类装饰器可以完成和Java类似的注解功能，而且要比注解强大的多。
+由此可见，类装饰器可以完成和 Java 类似的注解功能，而且要比注解强大的多。
 
 ## 后记
 
 装饰器就是一个语法糖，当你看不懂一个装饰器时，可以考虑将其依次展开，分别带入。这个语法糖给了我们不少方便，但是也要慎用。毕竟可维护的代码才是高质量的代码。
-

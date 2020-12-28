@@ -1,17 +1,18 @@
 ---
 title: Linux里的文件传输
 categories: [Tech]
-tags: [Linux,shell]
+tags: [Linux, shell]
 date: 2020-02-16
-layout: posts
+layout: single
 ---
-如果要和Linux交换文件怎么办？
+
+如果要和 Linux 交换文件怎么办？
 
 <!-- more -->
 
 ## scp
 
-命令全称Secure copy， 用于ssh主机间的文件复制，也称为远程拷贝。
+命令全称 Secure copy， 用于 ssh 主机间的文件复制，也称为远程拷贝。
 
 ```sh
 # Copy a local file to a remote host:
@@ -33,7 +34,7 @@ scp path/to/local_file remote_username@remote_host:path/to/remote_directory
 scp -i ~/.ssh/private_key local_file remote_host:/path/remote_file
 ```
 
-​    参数说明：
+​ 参数说明：
 
 ```
 -1： 强制scp命令使用协议ssh1
@@ -55,8 +56,6 @@ scp -i ~/.ssh/private_key local_file remote_host:/path/remote_file
 -S program： 指定加密传输时所使用的程序。此程序必须能够理解ssh(1)的选项。
 ```
 
-
-
 ## rsync
 
 `rsync`基本上就是用来替代`scp`的命令，功能更强大，参数也更复杂。支持增量备份，压缩拷贝，删除同步，软链复制等等。
@@ -68,8 +67,8 @@ rsync path/to/local_file remote_host:path/to/remote_directory
 # Transfer file from remote host to local:
 rsync remote_host:path/to/remote_file path/to/local_directory
 
-# Transfer file in [a]rchive (to preserve attributes) 
-# and compressed ([z]ipped) mode 
+# Transfer file in [a]rchive (to preserve attributes)
+# and compressed ([z]ipped) mode
 # with [v]erbose and [h]uman-readable [p]rogress:
 rsync -azvhP path/to/local_file remote_host:path/to/remote_directory
 
@@ -157,7 +156,7 @@ rsync -e ssh --info=progress2 remote_host:path/to/remote_file path/to/local_file
 
 ## vsftpd
 
-`vsftpd`是Linux的ftp服务端程序，一般需要单独安装，比如：
+`vsftpd`是 Linux 的 ftp 服务端程序，一般需要单独安装，比如：
 
 ```
 yum install vsftpd -y
@@ -211,7 +210,7 @@ ftp:x:110:115:ftp daemon,,,:/srv/ftp:/bin/false
 
 ```
 
-如果文件写入失败，有可能是权限的问题，owner改成`ftp`并下放权限。
+如果文件写入失败，有可能是权限的问题，owner 改成`ftp`并下放权限。
 
 ```
 chown -R ftp /srv/ftp
@@ -219,7 +218,7 @@ chown -R ftp /srv/ftp
 
 ## http
 
-如果只是为了读文件，直接用Python开个http服务即可。
+如果只是为了读文件，直接用 Python 开个 http 服务即可。
 
 ```
 cd /path/to/shared_dir

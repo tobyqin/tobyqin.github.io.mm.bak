@@ -1,17 +1,18 @@
 ---
 title: Github里的Collection
 categories: [Tech]
-tags: [github,tips]
+tags: [github, tips]
 date: 2020-02-23
-layout: posts
+layout: single
 ---
-在Github里有个功能叫Collection。
+
+在 Github 里有个功能叫 Collection。
 
 <!-- more -->
 
 地址是：https://github.com/collections
 
-有一些Collection列表还是不错的。
+有一些 Collection 列表还是不错的。
 
 1. https://github.com/collections/learn-to-code
 2. https://github.com/collections/text-editors

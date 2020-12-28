@@ -3,7 +3,7 @@ title: CentOS安装最新版Nodejs
 categories: [Tech]
 tags: [tips]
 date: 2020-03-29
-layout: posts
+layout: single
 ---
 
 添加 Nodejs 到 Yum Repo

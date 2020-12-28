@@ -3,7 +3,7 @@ title: Linux里的计划任务
 categories: [Tech]
 tags: [linux，cron，crontab，anacron]
 date: 2020-03-07
-layout: posts
+layout: single
 ---
 
 cron 是 Linux 内置的计划任务程序。

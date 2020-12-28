@@ -3,7 +3,7 @@ title: 在ParallelDesktop虚拟机中访问Mac的IP
 categories: [Tech]
 tags: [paralledesktop, tips]
 date: 2020-03-14
-layout: posts
+layout: single
 ---
 
 假设在 Mac 主机开了一个 http 的服务。

@@ -3,7 +3,7 @@ title: Linux的压缩和解压
 categories: [Tech]
 tags: [linux，zip，unzip，tar]
 date: 2020-03-08
-layout: posts
+layout: single
 ---
 
 最常用的是 zip 和 tar 命令。

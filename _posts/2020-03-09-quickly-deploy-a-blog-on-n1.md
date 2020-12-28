@@ -3,7 +3,7 @@ title: 在N1上快速部署一个博客
 categories: [Tech]
 tags: [tips]
 date: 2020-03-09
-layout: posts
+layout: single
 ---
 
 前提是你已经[刷了 armbian](https://tobyqin.github.io/posts/2020-02-09/feixun-n1s-road-of-twists-and-turns/)。

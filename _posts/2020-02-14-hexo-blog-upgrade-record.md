@@ -3,15 +3,16 @@ title: Hexo博客升级记录
 categories: [Life]
 tags: [blog, hexo, cloudflare, next]
 date: 2020-02-14
-layout: posts
+layout: single
 ---
+
 抽了半天时间升级一下博客程序。
 
 <!-- more -->
 
 ## 升级 nodejs 版本
 
-用brew可以升级最新的node，用新不用旧。
+用 brew 可以升级最新的 node，用新不用旧。
 
 ```sh
 brew upgrade node
@@ -19,12 +20,12 @@ brew upgrade node
 node 11.13.0 -> 13.6.0
 ```
 
-最后记得在测试通过后要把CI配置文件的node版本也升级到对应版本，比如
+最后记得在测试通过后要把 CI 配置文件的 node 版本也升级到对应版本，比如
 
 - `.travis.yml` : Travis CI 自动部署博客
 - `.github/workflows/*.yml` ：Github Actions 自动部署博客
 
-## 用ncu升级Hexo版本
+## 用 ncu 升级 Hexo 版本
 
 `ncu`是一个非常方便的包检查工具，全局安装。
 
@@ -48,7 +49,7 @@ $ ncu -g
 npm -g install npm@6.13.7 nrm@1.2.1
 ```
 
-检查一下Hexo博客需要更新的包。
+检查一下 Hexo 博客需要更新的包。
 
 ```sh
 # tobyqin @ CatBook in ~/src/blog
@@ -68,7 +69,7 @@ Checking /Users/tobyqin/src/blog/package.json
  hexo-renderer-marked     ^0.3.2  →  ^2.0.0
  hexo-renderer-stylus     ^0.3.3  →  ^1.1.0
  hexo-server              ^0.3.3  →  ^1.0.0
- 
+
  Run ncu -u to upgrade package.json
 ```
 
@@ -117,7 +118,7 @@ gyp ERR! not ok
 3. 删除本地包缓存 `npm cache clean`
 4. 重新跑 `npm install`
 
-## 验证新版Hexo对主题的影响
+## 验证新版 Hexo 对主题的影响
 
 直接跑一下命令重新生成博客预览一下。
 
@@ -156,7 +157,7 @@ hexo clean && hexo g && hexo s
 
 ## 合并主题配置
 
-每次主题升级配置文件都不一定兼容，还好Next主题允许定义一个外部配置文件来覆盖默认的配置。
+每次主题升级配置文件都不一定兼容，还好 Next 主题允许定义一个外部配置文件来覆盖默认的配置。
 
 ```
 # 外部主题配置
@@ -169,7 +170,7 @@ hexo clean && hexo g && hexo s
 
 ## 改进主题样式
 
-纵然配置改完了，升级后的Next还是不够完美，手动调优，主要修改：
+纵然配置改完了，升级后的 Next 还是不够完美，手动调优，主要修改：
 
 1. 导航菜单 - 改成黑底白字
 2. 博文间隔 - 80px
@@ -181,31 +182,31 @@ hexo clean && hexo g && hexo s
 
 ## 部署白屏，回滚
 
-本地测试完全没问题，推到Github后打开一下，懵逼了，也没显示正常但是看不见任何文字。
+本地测试完全没问题，推到 Github 后打开一下，懵逼了，也没显示正常但是看不见任何文字。
 
 ![image-20200215113446861](https://tobyqin.github.io/images/image-20200215113446861.png)
 
-从源码和CSS看都是正常的，眼睛就是看不见，换了浏览器也不行，查了半天，还以为是Cloudflare的问题，因为发现走Cloudflare后所有的Script标签都被加上了一串随机字符串，这是和本地生成的主页diff。
+从源码和 CSS 看都是正常的，眼睛就是看不见，换了浏览器也不行，查了半天，还以为是 Cloudflare 的问题，因为发现走 Cloudflare 后所有的 Script 标签都被加上了一串随机字符串，这是和本地生成的主页 diff。
 
 ![image-20200215113752742](https://tobyqin.github.io/images/image-20200215113752742.png)
 
-得到的结论是这个随机字符对Script标签没影响，因为后面我回滚后的Script标签页会加上随机码，但不影响显示。
+得到的结论是这个随机字符对 Script 标签没影响，因为后面我回滚后的 Script 标签页会加上随机码，但不影响显示。
 
 - https://magento.stackexchange.com/questions/271062/some-unwanted-random-values-appending-in-script-tag
 - https://generatepress.com/forums/topic/random-string-in-script-tag/
 
-是不是我改坏了？试着把原版的Next7主题恢复再部署一次，还是白屏。又查了2小时，放弃吧。
+是不是我改坏了？试着把原版的 Next7 主题恢复再部署一次，还是白屏。又查了 2 小时，放弃吧。
 
 我先回滚了，太费时间。回滚到旧版，显示正常。
 
-## 解决问题，还是Cloudflare
+## 解决问题，还是 Cloudflare
 
-最后突然想到是不是主题本身有问题？去到Github的Issue里找了一圈，果然：
+最后突然想到是不是主题本身有问题？去到 Github 的 Issue 里找了一圈，果然：
 
-- [在同时开启CloudFlare的Rocket Loader和PJAX后，页面异常](https://github.com/theme-next/hexo-theme-next/issues/1147)
+- [在同时开启 CloudFlare 的 Rocket Loader 和 PJAX 后，页面异常](https://github.com/theme-next/hexo-theme-next/issues/1147)
 
 解决问题的方法：
 
-1. 登录Cloudflare，选中网站
-2. Speed功能块，Optimization里找到Rocket Loader
-3. 关闭后等2分钟，刷新页面，正常了。
+1. 登录 Cloudflare，选中网站
+2. Speed 功能块，Optimization 里找到 Rocket Loader
+3. 关闭后等 2 分钟，刷新页面，正常了。

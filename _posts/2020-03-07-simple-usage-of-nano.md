@@ -3,7 +3,7 @@ title: nano的简单用法
 categories: [Tech]
 tags: [nano，linux]
 date: 2020-03-07
-layout: posts
+layout: single
 ---
 
 不小心进了 nano，都不知道怎么退出来。

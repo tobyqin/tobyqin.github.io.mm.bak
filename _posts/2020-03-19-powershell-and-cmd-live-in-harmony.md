@@ -3,7 +3,7 @@ title: PowerShell和Cmd和谐共处
 categories: [Tech]
 tags: [powershell, batch, tips]
 date: 2020-03-19
-layout: posts
+layout: single
 ---
 
 PowerShell 真的很强大啊，但是双击运行不 OK 啊。批处理好方便啊，可是写一个`if`要半天啊。他俩就不能既方便又强大吗？

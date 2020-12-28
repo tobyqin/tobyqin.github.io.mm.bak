@@ -3,7 +3,7 @@ title: nginx常用命令
 categories: [Tech]
 tags: [nginx]
 date: 2020-03-28
-layout: posts
+layout: single
 ---
 
 ```bash

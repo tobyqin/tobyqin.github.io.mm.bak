@@ -1,12 +1,12 @@
 ---
 title: 上传并发布你自己发明的轮子 - Python PyPI 实践
 categories: Tech
-tags: [python,PyPI]
+tags: [python, PyPI]
 date: 2017-03-09
-layout: posts
+layout: single
 ---
 
-Pypi的发布实践。
+Pypi 的发布实践。
 
 <!-- more -->
 
@@ -14,7 +14,7 @@ Pypi的发布实践。
 
 - https://docs.python.org/2/distutils/setupscript.html
 
-##  上传前的注意事项
+## 上传前的注意事项
 
 - 假设你的包已经开发完成，并且根目录必须要有一个[setup.py](https://github.com/pypa/sampleproject/blob/master/setup.py)。
 - 最好有一个[README.rst](https://github.com/pypa/sampleproject/blob/master/README.rst) 用来描述你的轮子，虽然这不是必须的，但文档就像内裤，你最好还是要有的。
@@ -22,21 +22,21 @@ Pypi的发布实践。
 
 ## 关于`setup.py`的补充说明
 
-- `name` 必须是唯一的，允许使用数字和字母，推荐使用中划线（-）而不是下划线（_），因为pip安装只支持中划线，比如`pip install my-pkg`，为了不给自己找麻烦请听话。
+- `name` 必须是唯一的，允许使用数字和字母，推荐使用中划线（-）而不是下划线（\_），因为 pip 安装只支持中划线，比如`pip install my-pkg`，为了不给自己找麻烦请听话。
 - `version`推荐遵循[语义化版本号](https://packaging.python.org/distributing/#semantic-versioning-preferred)规则，简单说就像这样：1.2.0
-- 作者姓名和邮箱地址不一定要和你的PyPI账号一致。
+- 作者姓名和邮箱地址不一定要和你的 PyPI 账号一致。
 
 ## 测试本地打包命令
 
-如果上面的都没问题，在本地目录执行以下命令应该能成功在dist目录下生成*.tar.gz的包文件。
+如果上面的都没问题，在本地目录执行以下命令应该能成功在 dist 目录下生成\*.tar.gz 的包文件。
 
 ```shell
 python setup.py sdist
 ```
 
-## 上传并发布包文件到PyPI
+## 上传并发布包文件到 PyPI
 
-### 创建 PyPI账号
+### 创建 PyPI 账号
 
 非常简单，直接通过官网注册 https://pypi.python.org/pypi?%3Aaction=register_form， 但是需要验证邮件并确认激活。
 
@@ -58,10 +58,10 @@ password = <password>
 
 ### 注册你的包
 
-你需要到PyPI注册并验证你的包，之后才能开始真正上传，注册的方式有以下几种。
+你需要到 PyPI 注册并验证你的包，之后才能开始真正上传，注册的方式有以下几种。
 
-1. 使用命令`python setup.py register`，最简单但官网不推荐，因为使用的是HTTP未加密，有可能会被攻击人嗅探到你的密码。
-2. 通过[PyPI网站提交表单](https://pypi.python.org/pypi?%3Aaction=submit_form)完成注册验证。
+1. 使用命令`python setup.py register`，最简单但官网不推荐，因为使用的是 HTTP 未加密，有可能会被攻击人嗅探到你的密码。
+2. 通过[PyPI 网站提交表单](https://pypi.python.org/pypi?%3Aaction=submit_form)完成注册验证。
 3. 安装 `pip install twine` 然后在通过命令 `twine register dist/mypkg.whl` 完成注册。
 
 ### 上传并完成发布
@@ -71,10 +71,9 @@ password = <password>
 1. 使用命令：`python setup.py sdist upload`，还是和上面一样，最简单但是有安全隐患。
 2. 使用 [twine](https://packaging.python.org/key_projects/#twine)： `twine upload dist/*`
 
-
 ### 管理你的包
 
-如果你的包已经上传成功，那么当你登录PyPI网站后应该能在右侧导航栏看到管理入口。
+如果你的包已经上传成功，那么当你登录 PyPI 网站后应该能在右侧导航栏看到管理入口。
 
 ![pypi_manage](https://tobyqin.github.io/images/pypi_manage.png)
 
@@ -82,7 +81,7 @@ password = <password>
 
 ### 让别人使用你的包
 
-包发布完成后，其他人只需要使用pip就可以安装你的包文件。比如：
+包发布完成后，其他人只需要使用 pip 就可以安装你的包文件。比如：
 
 ```
 pip install package-name
@@ -96,7 +95,7 @@ pip install package-name --update
 
 ## 可能遇到的错误
 
-### Upload failed (403): Invalid or non-existent authentication information. 
+### Upload failed (403): Invalid or non-existent authentication information.
 
 错误的用户验证信息，你需要创建一个用户验证文件 `~/.pypirc`。请参阅上文。
 
@@ -106,11 +105,11 @@ pip install package-name --update
 
 ### Server response (401): Incomplete registration; check your email
 
-你的PyPI账户还没完成邮箱验证，你需要去注册邮箱找到一封验证邮件完成验证后再重试失败的步骤。
+你的 PyPI 账户还没完成邮箱验证，你需要去注册邮箱找到一封验证邮件完成验证后再重试失败的步骤。
 
 ### Server response (400): Invalid classifier "Topic :: Software Development :: Utilities"
 
-你的setup.py文件中的**classifier**信息有误，请按[官网](https://pypi.python.org/pypi?%3Aaction=browse)的正确分类书写**classifier**.
+你的 setup.py 文件中的**classifier**信息有误，请按[官网](https://pypi.python.org/pypi?%3Aaction=browse)的正确分类书写**classifier**.
 
 ### error: No dist file created in earlier command
 
@@ -131,7 +130,3 @@ python setup sdist upload
 ### 参考文档
 
 - https://packaging.python.org/distributing/
-
-
-
-

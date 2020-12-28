@@ -3,7 +3,7 @@ title: 让vi在保存文件时获得sudo权限
 categories: [Tips]
 tags: [vim, linux]
 date: 2020-02-23
-layout: posts
+layout: single
 ---
 
 改完文件后发现没权限保存？可以临时补救一下。

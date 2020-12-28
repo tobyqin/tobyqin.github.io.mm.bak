@@ -1,10 +1,11 @@
 ---
 title: Improve Assertion In Python
 date: 2016-10-20
-tags: [python,software testing]
+tags: [python, software testing]
 categories: Tech
-layout: posts
+layout: single
 ---
+
 Assertion is the basics of testing.
 
 <!-- more -->
@@ -23,7 +24,7 @@ Traceback (most recent call last):
 AssertionError
 ```
 
-It is great that `assert` can stop your application/tests when something goes wrong. However, it is not good enough that the **AssertionError** does not expose more information. In above example, we received the error message only with file name and line number, you have to start debugger to discover more. 
+It is great that `assert` can stop your application/tests when something goes wrong. However, it is not good enough that the **AssertionError** does not expose more information. In above example, we received the error message only with file name and line number, you have to start debugger to discover more.
 
 ### Improved Solution #1
 
@@ -39,11 +40,11 @@ Traceback (most recent call last):
 AssertionError: Key: 'nothing' is not in Target: 'nothin is impossible.'
 ```
 
-Well, it fixed the problem, but it not elegant.  If you are a QA engineer, you have to do a lot of assertions in thousands of test cases. With above solution, I would choose to die :-|
+Well, it fixed the problem, but it not elegant. If you are a QA engineer, you have to do a lot of assertions in thousands of test cases. With above solution, I would choose to die :-|
 
 ### Improved Solution #2
 
-You might know about test frameworks, how do they do assertion? Yes, using test framework assertion is a nice alternation. 
+You might know about test frameworks, how do they do assertion? Yes, using test framework assertion is a nice alternation.
 
 #### py.test
 
@@ -93,7 +94,7 @@ class TestStringMethods(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
+
 """
 Failure
 Expected :'FOO'
@@ -188,9 +189,8 @@ Before I found this package I am thinking about writing common assertion package
 
 ### Summary
 
-Assertion is pretty important to a system, it can increase stability and save your time in debugging. 
+Assertion is pretty important to a system, it can increase stability and save your time in debugging.
 
-Replacing all built-in assertion to 3rd party assertion in your code is not a good idea, because IDE like PyCharm knows nothing about that, so it will not provide auto-completion for those assertion. 
+Replacing all built-in assertion to 3rd party assertion in your code is not a good idea, because IDE like PyCharm knows nothing about that, so it will not provide auto-completion for those assertion.
 
 So my suggestion is, using more powerful assert functions in scenarios that you really want to verify something, keeping built-in assertion where you might fall in a pitfall, and with essential message. Keep It Simple and Stupid.
-

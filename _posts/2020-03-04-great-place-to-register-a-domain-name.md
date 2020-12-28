@@ -3,7 +3,7 @@ title: 注册域名的好地方
 categories: [Tech]
 tags: [domain, vps]
 date: 2020-03-04
-layout: posts
+layout: single
 ---
 
 有两个口碑还不错的域名供应商，国外的。

@@ -1,18 +1,18 @@
 ---
 title: 在Python中查找和替换文本
 date: 2016-10-10 13:32:03
-tags: [python,regex]
+tags: [python, regex]
 categories: Tech
-layout: posts
+layout: single
 ---
 
-Python编程中的小技巧。
+Python 编程中的小技巧。
 
 <!-- more -->
 
 ### 最简单的查找替换
 
-在Python中查找和替换非常简单，如果当前对象是一个字符串`str`时，你可以使用该类型提供的`find()`或者`index()`方法查找指定的字符，如果能找到则会返回字符第一次出现的索引，如果不存在则返回-1。
+在 Python 中查找和替换非常简单，如果当前对象是一个字符串`str`时，你可以使用该类型提供的`find()`或者`index()`方法查找指定的字符，如果能找到则会返回字符第一次出现的索引，如果不存在则返回-1。
 
 ```python
 >>> s = 'Cat and Dog'
@@ -75,7 +75,7 @@ True
 'We will fly to Thailand on 2016-10-31'
 ```
 
-其实`re.sub()`远比你相像的强大的多。在上面的例子里你可以替换类似于`{color}`这样的模板字符，也可以把正则匹配到的所有分组调换顺序，例如第二个例子一共匹配了3个分组，然后把第3个分组放到最前面 `r'\3-\1-\2'`，看明白了吗？
+其实`re.sub()`远比你相像的强大的多。在上面的例子里你可以替换类似于`{color}`这样的模板字符，也可以把正则匹配到的所有分组调换顺序，例如第二个例子一共匹配了 3 个分组，然后把第 3 个分组放到最前面 `r'\3-\1-\2'`，看明白了吗？
 
 接下来看另外一个例子。
 
@@ -132,5 +132,3 @@ print re.sub('python', match_case('money'), s, flags=re.IGNORECASE)
 >>> fnmatch.translate('C*and*D*')
 'C.*and.*D.*'
 ```
-
-

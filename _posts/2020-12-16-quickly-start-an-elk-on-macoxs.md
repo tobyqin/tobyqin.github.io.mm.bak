@@ -3,7 +3,7 @@ title: MacOXS上快速启动一个ELK
 categories: [Tech]
 tags: [Tech]
 date: 2020-12-16
-layout: posts
+layout: single
 ---
 
 ## 快速开始

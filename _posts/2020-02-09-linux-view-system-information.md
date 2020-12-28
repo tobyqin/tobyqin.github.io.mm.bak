@@ -3,10 +3,10 @@ title: Linux查看系统信息的命令
 categories: [Tech]
 tags: [Linux, shell]
 date: 2020-02-09
-layout: posts
+layout: single
 ---
 
-查看Linux系统信息的一些技巧。
+查看 Linux 系统信息的一些技巧。
 
 <!-- more -->
 
@@ -18,7 +18,7 @@ uname -a
 cat /etc/*-release # 不同的发行版名字不太一样
 ```
 
-## 查看CPU和内存
+## 查看 CPU 和内存
 
 ```sh
 cat /proc/cpuinfo
@@ -105,5 +105,3 @@ compgen -k
 # Check command location
 which [command]
 ```
-
-

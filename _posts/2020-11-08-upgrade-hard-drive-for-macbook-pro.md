@@ -3,7 +3,7 @@ title: 给MacBook Pro升级硬盘
 categories: [Tech]
 tags: [tips]
 date: 2020-11-08
-layout: posts
+layout: single
 ---
 
 小记一下，其实过程比较简单。

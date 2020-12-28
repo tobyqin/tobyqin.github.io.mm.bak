@@ -1,10 +1,11 @@
 ---
 title: 获取 Google Chrome 谷歌浏览器离线安装包
 date: 2016-10-18 21:35:01
-tags: [tips,google]
+tags: [tips, google]
 categories: Tech
-layout: posts
+layout: single
 ---
+
 谷歌浏览器的离线安装包还真有用。
 
 <!-- more -->
@@ -15,18 +16,21 @@ layout: posts
 - [Download Google Chrome Standalone Offline Installer (64-bit)][2]
 
 安装后所有用户可用，请使用以下链接：
+
 - [Google Chrome Offline Installer for All User Accounts (32-bit)][3]
 - [Google Chrome Offline Installer for All User Accounts (64-bit)][4]
 
-如果你需要安装Beta版本，请使用：
+如果你需要安装 Beta 版本，请使用：
+
 - [Google Chrome Beta Version Offline Installer (32-bit)][5]
 - [Google Chrome Beta Version Offline Installer (64-bit)][6]
 
-如果你需要安装Dev版本，请使用：
+如果你需要安装 Dev 版本，请使用：
+
 - [Google Chrome Dev Version Offline Installer (32-bit)][7]
 - [Google Chrome Dev Version Offline Installer (64-bit)][8]
 
-> 以上安装包适用于Windows平台。
+> 以上安装包适用于 Windows 平台。
 
 [1]: http://www.google.com/chrome/eula.html?standalone=1
 [2]: http://www.google.com/chrome/eula.html?standalone=1&platform=win64

@@ -3,7 +3,7 @@ title: 一个小故事
 categories: [Life]
 tags: [life, dream]
 date: 2020-09-14
-layout: posts
+layout: single
 ---
 
 这是一个小故事，在[V2](https://www.v2ex.com/t/706579)上看到的。

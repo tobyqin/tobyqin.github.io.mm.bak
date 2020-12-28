@@ -1,9 +1,9 @@
 ---
 title: Find and replace text with Python
 date: 2016-10-10 13:32:03
-tags: [python,regex]
+tags: [python, regex]
 categories: Tech
-layout: posts
+layout: single
 ---
 
 Tips of Python programming.
@@ -132,5 +132,3 @@ Oh, last but not least, do you want to do use `re.sub()` for wildcards, yes, you
 >>> fnmatch.translate('C*and*D*')
 'C.*and.*D.*'
 ```
-
-

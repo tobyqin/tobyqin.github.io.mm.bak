@@ -1,17 +1,18 @@
 ---
 title: Python中不尽如人意的断言Assertion
 date: 2016-10-20
-tags: [python,software testing]
+tags: [python, software testing]
 categories: Tech
-layout: posts
+layout: single
 ---
+
 断言是测试的氧气，无断言，不测试。
 
 <!-- more -->
 
 ### Python Assert 为何不尽如人意
 
-Python中的断言用起来非常简单，你可以在`assert`后面跟上任意判断条件，如果断言失败则会抛出异常。
+Python 中的断言用起来非常简单，你可以在`assert`后面跟上任意判断条件，如果断言失败则会抛出异常。
 
 ```python
 >>> assert 1 + 1 == 2
@@ -47,7 +48,7 @@ AssertionError: Key: 'nothing' is not in Target: 'nothin is impossible.'
 
 #### py.test
 
-[py.test](https://pypi.python.org/pypi/pytest) 是一个轻量级的测试框架，所以它压根就没写自己的断言系统，但是它对Python自带的断言做了强化处理，如果断言失败，那么框架本身会尽可能多地提供断言失败的原因。那么也就意味着，用**py.test**实现测试，你一行代码都不用改。
+[py.test](https://pypi.python.org/pypi/pytest) 是一个轻量级的测试框架，所以它压根就没写自己的断言系统，但是它对 Python 自带的断言做了强化处理，如果断言失败，那么框架本身会尽可能多地提供断言失败的原因。那么也就意味着，用**py.test**实现测试，你一行代码都不用改。
 
 ```python
 import pytest
@@ -81,7 +82,7 @@ assertion_in_python.py:7: AssertionError
 
 #### unittest
 
-Python自带的[unittest](https://docs.python.org/3/library/unittest.html)单元测试框架就有了自己的断言方法 `self.assertXXX()` ，而且不推荐使用`assert XXX `语句。
+Python 自带的[unittest](https://docs.python.org/3/library/unittest.html)单元测试框架就有了自己的断言方法 `self.assertXXX()` ，而且不推荐使用`assert XXX `语句。
 
 ```python
 import unittest
@@ -93,7 +94,7 @@ class TestStringMethods(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
+
 """
 Failure
 Expected :'FOO'
@@ -108,7 +109,7 @@ AssertionError: 'FOO' != 'FoO'
 
 #### ptest
 
-我非常喜欢[ptest](https://pypi.python.org/pypi/ptest)，感谢Karl大神写了这么一个测试框架。ptest中的断言可读性很好，而且智能提示也很方便你通过IDE轻松完成各种断言语句。
+我非常喜欢[ptest](https://pypi.python.org/pypi/ptest)，感谢 Karl 大神写了这么一个测试框架。ptest 中的断言可读性很好，而且智能提示也很方便你通过 IDE 轻松完成各种断言语句。
 
 ```python
 from ptest.decorator import *
@@ -134,7 +135,7 @@ AssertionError: Unexpectedly that the str <bar> is not equal to str <foo>.
 
 ### 改进方案 #3
 
-不仅仅是你和我对Python中的断言表示不满足，所以大家都争相发明自己的assert包。在这里我强烈推荐[assertpy](https://pypi.python.org/pypi/assertpy) 这个包，它异常强大而且好评如潮。
+不仅仅是你和我对 Python 中的断言表示不满足，所以大家都争相发明自己的 assert 包。在这里我强烈推荐[assertpy](https://pypi.python.org/pypi/assertpy) 这个包，它异常强大而且好评如潮。
 
 ```shell
 pip install assertpy
@@ -184,15 +185,14 @@ Expected <foo> to be not equal to <foo>, but was.
 Expected <foo> to be case-insensitive equal to <BAR>, but was not.
 ```
 
-在发现assertpy之前我也想写一个类似的包，尽可能通用一些。但是现在，我为毛要重新去造轮子？完全没必要！
+在发现 assertpy 之前我也想写一个类似的包，尽可能通用一些。但是现在，我为毛要重新去造轮子？完全没必要！
 
 ### 总结
 
 断言在软件系统中有非常重要的作用，写的好可以让你的系统更稳定，也可以让你有更多真正面对对象的时间，而不是在调试代码。
 
-Python中默认的断言语句其实还有一个作用，如果你写了一个类型相关的断言，IDE会把这个对象当成这种类型，这时候智能提示就有如神助。
+Python 中默认的断言语句其实还有一个作用，如果你写了一个类型相关的断言，IDE 会把这个对象当成这种类型，这时候智能提示就有如神助。
 
-要不要把内置的断言语句换成可读性更好功能更强大的第三方断言，完全取决于实际情况。比如你真的需要验证某个东西并且很关心验证结果，那么必须不能用简单的assert；如果你只是担心某个点可能有坑或者让IDE认识某个对象，用内置的assert既简单又方便。
+要不要把内置的断言语句换成可读性更好功能更强大的第三方断言，完全取决于实际情况。比如你真的需要验证某个东西并且很关心验证结果，那么必须不能用简单的 assert；如果你只是担心某个点可能有坑或者让 IDE 认识某个对象，用内置的 assert 既简单又方便。
 
 总之，你自己看着办。
-

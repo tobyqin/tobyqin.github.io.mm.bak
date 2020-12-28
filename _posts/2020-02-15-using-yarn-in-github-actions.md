@@ -1,11 +1,12 @@
 ---
 title: 在Github Actions中使用Yarn
 categories: [Tech]
-tags: [github,nodejs,yarn,npm]
+tags: [github, nodejs, yarn, npm]
 date: 2020-02-15
-layout: posts
+layout: single
 ---
-Yarn的呼声时不时比npm大，在Github Actions里怎么使用Yarn呢？
+
+Yarn 的呼声时不时比 npm 大，在 Github Actions 里怎么使用 Yarn 呢？
 
 <!-- more -->
 
@@ -18,7 +19,6 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,19 +26,19 @@ jobs:
         node-version: [8.x, 10.x, 12.x]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
-      run: |
-        npm install
-        npm run build --if-present
-        npm test
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          npm test
 ```
 
-## 通过npm来安装Yarn
+## 通过 npm 来安装 Yarn
 
 ```yaml
 ...
@@ -52,10 +52,11 @@ steps:
 ...
 ```
 
-## 用Yarn替换掉npm
+## 用 Yarn 替换掉 npm
 
 ```yaml
-...
+
+---
 - name: yarn install, build, and test
   run: |
     yarn install
@@ -63,7 +64,7 @@ steps:
     yarn test
 ```
 
-##  完整的例子
+## 完整的例子
 
 ```yaml
 # .github/workflows/nodejs.yml
@@ -73,7 +74,6 @@ on: [push, pull_request] # Run on Push and Pull Requests
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -81,15 +81,15 @@ jobs:
         node-version: [10.x] # Only run the 10.x build
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install -g yarn
-    - name: yarn install, build, and test
-      run: |
-        yarn
-        yarn build
-        yarn test
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install -g yarn
+      - name: yarn install, build, and test
+        run: |
+          yarn
+          yarn build
+          yarn test
 ```

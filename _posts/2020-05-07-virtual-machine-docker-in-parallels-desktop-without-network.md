@@ -3,7 +3,7 @@ title: Parallels Desktop里的虚拟机的Docker无网络
 categories: [Tech]
 tags: [linux, docker, vmware, macosx]
 date: 2020-05-07
-layout: posts
+layout: single
 ---
 
 Parallel Desktop 里装了一个 CentOS，CentOS 里装了一个 Docker，有点像套娃。

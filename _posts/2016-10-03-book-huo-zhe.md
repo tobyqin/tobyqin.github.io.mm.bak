@@ -3,7 +3,7 @@ title: 读书 - 《活着》
 date: 2016-10-03 13:35:21
 tags: book
 categories: Reading
-layout: posts
+layout: single
 ---
 
 <center>文/大橙子
