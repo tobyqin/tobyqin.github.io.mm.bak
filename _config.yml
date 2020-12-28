@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Toby Qin"
   avatar : "https://avatars1.githubusercontent.com/u/14037644" #"/assets/images/bio-photo.jpg"
-  bio    : "Software Engineer in Testing and DevOps"
+  bio    : "Software Engineer in Testing and DevOps, Cloud Native :-)"
   links:
     - label: "CnBlogs"
       icon: "fas fa-fw fa-link"
