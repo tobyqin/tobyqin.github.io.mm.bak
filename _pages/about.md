@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+comments: true
 ---
 
 Hi, my name is Toby Qin. I am a software engineer in testing and DevOps. I have worked in this field for more than 10 years, if you have good opportunities want to share, welcome to contact me via GitHub.
