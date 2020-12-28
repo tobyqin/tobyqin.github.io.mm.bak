@@ -6,6 +6,8 @@ date: 2020-12-16
 layout: single
 ---
 
+万物都可以用Docker快速启动。
+
 ## 快速开始
 
 1. 确保你的 Docker 已经安装完毕。
