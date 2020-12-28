@@ -119,7 +119,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  comments:
-    provider: "disqus"
-    disqus:
-      shortname: "https-betacat-online"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "https-betacat-online"
