@@ -6,11 +6,10 @@ categories: Reading
 layout: single
 ---
 
-<center>文/大橙子
+>文/大橙子
 
 ![](https://tobyqin.github.io/images/love-in-cholera.jpg)
 
-</center>
 
 作者歌颂的应该不是爱情，至于男女主最后终在一起，我也不认为那是爱情。
 

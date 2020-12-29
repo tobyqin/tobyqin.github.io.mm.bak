@@ -6,11 +6,9 @@ categories: Reading
 layout: single
 ---
 
-<center>文/大橙子
+> 文/大橙子
 
 ![](https://tobyqin.github.io/images/jyzhd.jpg)
-
-</center>
 
 > **五星好评，强烈推荐！**
 

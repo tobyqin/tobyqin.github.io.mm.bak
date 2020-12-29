@@ -6,11 +6,9 @@ categories: Reading
 layout: single
 ---
 
-<center>文/大橙子
+> 文/大橙子
 
 ![](https://tobyqin.github.io/images/haroldfry.jpg)
-
-</center>
 
 > **四星好评，不错哦！**
 

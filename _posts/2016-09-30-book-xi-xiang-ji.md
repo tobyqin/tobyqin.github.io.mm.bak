@@ -6,11 +6,9 @@ categories: Reading
 layout: single
 ---
 
-<center>文/大橙子
+> 文/大橙子
 
 ![](https://tobyqin.github.io/images/xxj.jpg)
-
-</center>
 
 > 这本书是某人要求我读的，啊。
 

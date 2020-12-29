@@ -5,7 +5,7 @@ tags: [quiz,python]
 date: 2018-01-03
 ---
 
-Python算法备忘。
+Python 算法备忘。
 
 <!-- more -->
 

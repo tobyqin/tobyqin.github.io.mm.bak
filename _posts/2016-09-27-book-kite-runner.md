@@ -6,11 +6,9 @@ categories: Reading
 layout: single
 ---
 
-<center>文/大橙子
+> 文/大橙子
 
 ![Kite Runner](https://tobyqin.github.io/images/kiterunner.png)
-
-</center>
 
 > **五星好评，强烈推荐！**
 
