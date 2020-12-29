@@ -35,7 +35,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - _archive
-  _ _drafts
+  - _drafts
 
 # Plugins (previously gems:)
 plugins:
