@@ -48,10 +48,10 @@ plugins:
 
 author:
   name: 'Toby Qin'
-  avatar: "/assets/images/avatar.jpg"
+  avatar: '/assets/images/avatar.jpg'
   # avatar: 'https://avatars1.githubusercontent.com/u/14037644'
   bio: 'Just another software engineer in testing and DevOps, join me to be Cloud Native☁️'
-  location: "Shanghai, China"
+  location: 'Shanghai, China'
   links:
     - label: 'CnBlogs'
       icon: 'fas fa-fw fa-link'
@@ -91,6 +91,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
   # _pages
   - scope:
       path: '_pages'
@@ -107,6 +108,6 @@ tag_archive:
   path: /tags/
 
 comments:
-  provider: "disqus"
+  provider: 'disqus'
   disqus:
-    shortname: "https-betacat-online"
+    shortname: 'https-betacat-online'
