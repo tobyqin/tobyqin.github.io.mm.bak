@@ -36,6 +36,7 @@ exclude:
   - vendor/ruby/
   - _archive
   - _drafts
+  - blog.py
 
 # Plugins (previously gems:)
 plugins:
