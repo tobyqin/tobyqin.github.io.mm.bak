@@ -55,6 +55,9 @@ author:
   location: 'Shanghai, China'
   links:
     - label: 'CnBlogs'
+      icon: 'fas fa-fw fa-book'
+      url: '/docs/'
+    - label: 'CnBlogs'
       icon: 'fas fa-fw fa-link'
       url: 'https://www.cnblogs.com/cicaday/'
     - label: 'GitHub'
