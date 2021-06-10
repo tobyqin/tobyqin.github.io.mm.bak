@@ -54,8 +54,8 @@ author:
   bio: 'Just another software engineer in testing and DevOps, join me to be Cloud Native ☁️☁️☁️'
   location: 'Shanghai, China'
   links:
-    - label: 'CnBlogs'
-      icon: 'fas fa-fw fa-book'
+    - label: 'Dogs'
+      icon: 'fas fa-fw fa-dog'
       url: '/docs/'
     - label: 'CnBlogs'
       icon: 'fas fa-fw fa-link'
