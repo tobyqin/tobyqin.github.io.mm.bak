@@ -1,6 +1,9 @@
-import re
+from datetime import datetime
 from pathlib import Path
+
 import yaml
+
+TRANSLATE_EN = True
 
 
 def translate_to_en(text):
@@ -15,7 +18,8 @@ class Blog:
     en_title = ''
     raw_content = ''
     content = ''
-    front_formatter = dict()
+    date = datetime.now()
+    front_formatter = None
 
     def __init__(self, markdown_file):
         if isinstance(markdown_file, Path):
@@ -36,6 +40,7 @@ class Blog:
     def collect(self):
         self.file_name = self.file_obj.stem
         self.raw_content = self.file_obj.read_text(encoding='utf8')
+        self.date = datetime.fromtimestamp(self.file_obj.stat().st_ctime).strftime('%Y-%m-%d')
         self._build_front_formatter()
         self._build_content()
 
@@ -48,6 +53,8 @@ class Blog:
     def _try_get_front_formatter(self):
         if self.front_formatter:
             return self.front_formatter
+        else:
+            self.front_formatter = dict()
 
         start, end = -1, -1
         content_list = self.raw_content.split('\n')
@@ -64,7 +71,7 @@ class Blog:
             self.front_formatter = yaml.safe_load(yaml_content)
             return True
 
-    def _build_title(self, build_en=False):
+    def _build_title(self, build_en=TRANSLATE_EN):
         if self._try_get_front_formatter():
             self.title = self.front_formatter['title']
         else:
