@@ -1,7 +1,7 @@
 ---
 title: Jenkins Pipeline 一点通
 categories: [Tech]
-tags: [Jenkins]]
+tags: [Jenkins]
 date: 2021-02-01
 layout: single
 ---
