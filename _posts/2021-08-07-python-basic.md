@@ -100,16 +100,16 @@ a.__name__ = a
 
 数据类型是编程语言里的核心概念，Python 内置的数据类型非常简单，分类如下。
 
-```
-文本类型   Text Type     :  str
-数字类型   Numeric Types :	int, float, complex
-序列类型   Sequence Types:	list, tuple, range
-字典类型   Mapping Type  :	dict
-集合类型   Set Types     :	set, frozenset
-布尔类型   Boolean Type  :	bool
-二进制类型  Binary Types :	bytes, bytearray, memoryview
-空类型    None Type      :  None
-```
+| 类型       | 英文           | 关键字                       |
+| ---------- | -------------- | ---------------------------- |
+| 文本类型   | Text Type      | str                          |
+| 数字类型   | Numeric Types  | int, float, complex          |
+| 序列类型   | Sequence Types | list, tuple, range           |
+| 字典类型   | Mapping Type   | dict                         |
+| 集合类型   | Set Types      | set, frozenset               |
+| 布尔类型   | Boolean Type   | bool                         |
+| 二进制类型 | Binary Types   | bytes, bytearray, memoryview |
+| 空类型     | None Type      | None                         |
 
 实际工作中用的最多的类型主要是文本，数字，列表，字典，布尔。使用类型时不需要声明类型，Python 在运行时会根据实际值进行运算，这是动态语言的优势，但是在如此高的灵活性下对程序员的素质要求也很高。
 
