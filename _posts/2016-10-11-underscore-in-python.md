@@ -1,5 +1,5 @@
 ---
-title: Python中的下划线和双下划线
+title: Python中的下划线和魔方方法
 date: 2016-10-11 22:26:46
 tags: [python, python underscore, tips]
 categories: Tech
@@ -10,25 +10,42 @@ layout: single
 
 <!-- more -->
 
-### 开门见山
+## 开门见山
 
-下划线在 Python 中有特殊的意义，简单来说，可以总结成两点。
+下划线在 Python 中有特殊的意义，简单来说，可以总结成三点。
 
 1. 单下划线在前一般用于声明私有成员，比如 `_private_var`
 2. 单下划线在后一般用于命名已经被保留关键字占用的变量，比如 `class_`,`type_`
-3. 双下划线一般被用于 Python 内置的特殊方法或者属性，比如 `__name__`,`__file__`
+3. 双下划线一般被用于 Python 内置的特殊方法或者属性，比如 `__name__`,`__file__`，有时候也被称之为魔方方法。
 
-更多细节的讨论，可以看 StackOverflow 上的这个主题 http://stackoverflow.com/questions/1301346/the-meaning-of-a-single-and-a-double-underscore-before-an-object-name-in-python。
+更多细节的讨论，可以看 StackOverflow 上的这个主题：[What is the meaning of single and double underscore before an object name?](http://stackoverflow.com/questions/1301346/the-meaning-of-a-single-and-a-double-underscore-before-an-object-name-in-python)。
 
-### 思维导图
+> `__foo__`: this is just a convention, a way for the Python system to use names that won't conflict with user names.
+>
+> `_foo`: this is just a convention, a way for the programmer to indicate that the variable is private (whatever that means in Python).
+>
+> `__foo`: this has real meaning: the interpreter replaces this name with `_classname__foo` as a way to ensure that the name will not overlap with a similar name in another class.
+>
+> No other form of underscores have meaning in the Python world.
+>
+> There's no difference between class, variable, global, etc in these conventions.
+
+有时候我们还能看到就仅仅命名为一个下划线的的变量，这种情况一般是这个变量不重要或者只是一个临时工，连名字都不配拥有。
+
+```python
+for _,value in func(): # 假如func每次会返回两个值，我们只关心第二个值
+    use(value)
+```
+
+## 思维导图
 
 下面是思维导图的总结
 
 ![](https://tobyqin.github.io/images/underscore-in-Python.png)
 
-### 附录： 如何调用魔法方法
+## 如何调用魔法方法
 
-一些魔法方法直接和内建函数对应，这种情况下，如何调用它们是显而易见的。然而，另外的情况下，调用魔法方法的途径并不是那么明显。这个附录旨在展示那些不那么明显的调用魔法方法的语法。
+一些魔法方法直接和内建函数对应，这种情况下，如何调用它们是显而易见的。这有个附录可以作为调用魔法方法的参考。
 
 | 魔法方法                          | 什么时候被调用                     | 解释                       |
 | --------------------------------- | ---------------------------------- | -------------------------- |
@@ -57,5 +74,5 @@ layout: single
 
 如果你还想了解关于魔方方法的更多细节，那么你一定不能错过：
 
-- 魔法方法指南 http://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html
-- Magic method guide: http://www.rafekettler.com/magicmethods.html
+- [魔法方法指南](http://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html)
+- [Magic method guide](http://www.rafekettler.com/magicmethods.html)
