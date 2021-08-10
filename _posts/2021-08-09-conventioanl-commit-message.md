@@ -14,13 +14,13 @@ layout: single
 
 在敏捷开发里我们提倡频繁提交代码，但是这并不意味着对提交的代码和提交记录的质量妥协。你身边有没有这样的程序员大哥大姐，在提交代码时是这样写的提交信息？
 
-![image-20210809222633183](https://tobyqin.github.io/images/image-20210809222633183.png)
+![just update](https://tobyqin.github.io/images/image-20210809222633183.png)
 
 节操仿佛掉了一地，甚至还有下面这样的。
 
-![image-20210810074620042](https://tobyqin.github.io/images/image-20210810074620042.png)
+![just shit](https://tobyqin.github.io/images/image-20210810074620042.png)
 
-![image-20210810074738991](https://tobyqin.github.io/images/image-20210810074738991.png)
+![just bug fix](https://tobyqin.github.io/images/image-20210810074738991.png)
 
 ## 规范化的代码提交记录
 
@@ -55,7 +55,7 @@ This reverts commit <commit hash>.
 
 后面跟着默认的撤销改动信息。
 
-### 提交类型 <type>
+### 提交类型 Type
 
 提交类型可以让其他用户了解这个改动的初衷，详细列表可以在后文的参考链接找到，下面列举一些常用的类别。
 
@@ -79,11 +79,11 @@ This reverts commit <commit hash>.
 refactor!: drop support for node 8
 ```
 
-### 变更范围 <scope>
+### 变更范围 Scope
 
 The `scope` provides additional contextual information. 变更范围是可选的，在我们实际项目中我们在这里写入了需求卡片 ID，比如 JIRA ID，当然也可以写模块名称。
 
-### 变更主题 <Subject>
+### 变更主题 Subject
 
 The `subject` contains a succinct description of the change. 用一句话描述改动了什么，规范里建议不操作 72 个字符，这是最能体现节操的部分。
 
@@ -92,7 +92,7 @@ The `subject` contains a succinct description of the change. 用一句话描述�
 - Don't capitalize the first letter，首字母不要大写。
 - No dot (.) at the end，末尾不要加句号。
 
-### 变更详情 <Body>
+### 变更详情 Body
 
 The `body` should include the motivation for the change and contrast this with previous behavior. 详情里主要写变更的原因和背景，而不是写改了什么，改了什么主要还是通过 diff 来了解。
 
@@ -100,7 +100,7 @@ The `body` should include the motivation for the change and contrast this with p
 - Use the imperative, present tense: "change" not "changed" nor "changes"，使用现在时而不是过去时。
 - This is the place to mention issue identifiers and their relations，可以放需求卡片 ID 或者相关联的其他信息
 
-### 变更注脚 <Footer>
+### 变更注脚 Footer
 
 The `footer` should contain any information about **Breaking Changes** and is also the place to **reference Issues** that this commit refers to. 注脚里可以放跟 Breaking Changes 之类的其他信息，或者放任何跟这次改动相关的参考信息。
 
@@ -108,7 +108,7 @@ The `footer` should contain any information about **Breaking Changes** and is al
 - **optionally** reference an issue by its id.
 - **Breaking Changes** should start with the word `BREAKING CHANGES:` followed by space or two newlines. The rest of the commit message is then used for this.
 
-### 例子 Examples
+### 具体例子 Examples
 
 ```
   feat(shopping cart): add the amazing button
@@ -135,7 +135,7 @@ The `footer` should contain any information about **Breaking Changes** and is al
 
 其次，良好的提交记录可以提高你的口碑和声誉，我们可以随手去知名的开源项目翻阅一下，大神们不仅对代码有极高的要求，对提交记录也一样。
 
-![](https://tobyqin.github.io/images/conventional-git-commit.jpg)
+![tidy commit message](https://tobyqin.github.io/images/conventional-git-commit.jpg)
 
 大家在翻开其他同行的代码时，第一眼看的并不是代码，而是提交记录，他对他的好感有时候就是那么简单自然。
 
@@ -143,7 +143,7 @@ The `footer` should contain any information about **Breaking Changes** and is al
 
 ## 如何简化这个有点繁琐的流程
 
-如果你遇到任何事情都有偷懒和简化的思维，恭喜你，你已经具有高级工程师的基本素质了。坦白讲这个规范其实也没那么烦，但是一定要简化的话还是有人给赖人写了工具。
+如果你遇到任何事情都有偷懒和简化的思维，恭喜你，你已经具有高级工程师的基本素质了。坦白讲这个规范其实也没那么烦，但是一定要简化的话还是有懒人给懒人写了工具。
 
 1. IDEA 可以用 [Conventional Commit](https://plugins.jetbrains.com/plugin/13389-conventional-commit)
 2. VSCode 可以用 [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
@@ -156,4 +156,4 @@ The `footer` should contain any information about **Breaking Changes** and is al
 
 ![](https://tobyqin.github.io/images/dog-husky.jpg)
 
-关于 pre-commit-hook 和 husky 的使用，我们下次再讲，过了今天，愿你我的节操都在。
+关于 pre-commit-hook 和 husky 的使用，我们下次再讲，过了今天，愿你我的节操同在。
