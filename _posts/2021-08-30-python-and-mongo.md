@@ -51,7 +51,7 @@ switched to db mydb
 { "_id" : ObjectId("612c84c5d93795436ad27ebc"), "name" : "Toby", "age" : 18 }
 ```
 
-Mongo Shell 官方文档： https://docs.mongodb.com/manual/reference/mongo-shell/
+Mongo Shell 官方文档： <https://docs.mongodb.com/manual/reference/mongo-shell/>
 
 ## PyMongo 五分钟上手
 
@@ -141,8 +141,8 @@ def query_teenager():
 
 Mongo 的查询主要还是依赖 DB 自己提供的运算符，在 PyMongo 里要注意，这里不会抛出异常，如果找不到数据，默认返回 None。
 
-- 通过运算符查询数据：https://docs.mongodb.com/manual/reference/operator/query/
-- 通过聚合查询数据：https://docs.mongodb.com/manual/aggregation/
+- 通过运算符查询数据：<https://docs.mongodb.com/manual/reference/operator/query/>
+- 通过聚合查询数据：<https://docs.mongodb.com/manual/aggregation/>
 
 ### 修改数据
 
