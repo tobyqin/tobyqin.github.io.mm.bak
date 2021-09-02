@@ -50,7 +50,7 @@ Merge branch '<branch name>'
 Revert "<commit headline>"
 empty separator line
 This reverts commit <commit hash>.
-<optinal reason>
+<optional reason>
 ```
 
 后面跟着默认的撤销改动信息。
@@ -63,7 +63,7 @@ This reverts commit <commit hash>.
 
   - `feat` Commits, that adds a new feature，新功能
   - `fix` Commits, that fixes a bug，修复问题
-  - `refactor` Commits, that rewrite/restructure your code, however does not change any behaviour，重构
+  - `refactor` Commits, that rewrite/restructure your code, however does not change any behaviors，重构
   - `perf` Commits are special `refactor` commits, that improves performance，调优
 
 - `style` Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)，修改样式
@@ -115,7 +115,7 @@ The `footer` should contain any information about **Breaking Changes** and is al
 
   feat: remove ticket list endpoint
   refers to JIRA-1337
-  BREAKING CHANGES: ticket enpoints no longer supports list all entites.
+  BREAKING CHANGES: ticket endpoints no longer supports list all entities.
 
   fix: add missing parameter to service call
   The error occurred because of <reasons>.
