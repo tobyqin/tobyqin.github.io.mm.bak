@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 `__name__` 是 Python 模块的名字，双下划线属于 Python 进阶课程的内容，双下划线开头和结尾的变量一般属于 Python 的内置变量，`__name__` 就是其中之一，指的是当前模块的名字。但是，如果当前模块是被直接运行的模块的话，值就等于 `__main__`，否则就等于模块原本的名字。
 
-> 想了解更多双下划线的内容，搜索 [Python 的魔方方法](https://tobyqin.cn/posts/2016-10-12/underscore-in-python/)
+> 想了解更多双下划线的内容，搜索 [Python 的魔法方法](https://tobyqin.cn/posts/2016-10-12/underscore-in-python/)
 
 我们做一个简单的例子，假设有 a 和 b 两个模块。
 

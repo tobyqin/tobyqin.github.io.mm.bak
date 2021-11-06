@@ -1,5 +1,5 @@
 ---
-title: Python中的下划线和魔方方法
+title: Python中的下划线和魔法方法
 date: 2016-10-11 22:26:46
 tags: [python, python underscore, tips]
 categories: Tech
@@ -16,7 +16,7 @@ layout: single
 
 1. 单下划线在前一般用于声明私有成员，比如 `_private_var`
 2. 单下划线在后一般用于命名已经被保留关键字占用的变量，比如 `class_`,`type_`
-3. 双下划线一般被用于 Python 内置的特殊方法或者属性，比如 `__name__`,`__file__`，有时候也被称之为魔方方法。
+3. 双下划线一般被用于 Python 内置的特殊方法或者属性，比如 `__name__`,`__file__`，有时候也被称之为魔法方法。
 
 更多细节的讨论，可以看 StackOverflow 上的这个主题：[What is the meaning of single and double underscore before an object name?](http://stackoverflow.com/questions/1301346/the-meaning-of-a-single-and-a-double-underscore-before-an-object-name-in-python)。
 
@@ -72,7 +72,7 @@ for _,value in func(): # 假如func每次会返回两个值，我们只关心第
 | `__getstate__(self)`              | `pickle.dump(pkl_file, self)`      | Pickling                   |
 | `__setstate__(self)`              | `data = pickle.load(pkl_file)`     | Pickling                   |
 
-如果你还想了解关于魔方方法的更多细节，那么你一定不能错过：
+如果你还想了解关于魔法方法的更多细节，那么你一定不能错过：
 
 - [魔法方法指南](http://pyzh.readthedocs.io/en/latest/python-magic-methods-guide.html)
 - [Magic method guide](http://www.rafekettler.com/magicmethods.html)
