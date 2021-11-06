@@ -346,6 +346,8 @@ pip install mysql-connector-python
 
 假设你本机有个 mysql 的服务，我们现在需要一个数据库和一张数据表。在命令行工具里完成以下库和表的建立。
 
+> 没有的话，可以安装 `brew install mysql` 启动：`mysql.server start`
+
 ```bash
 $ mysql -uroot # 默认密码为空
 mysql> show databases;
