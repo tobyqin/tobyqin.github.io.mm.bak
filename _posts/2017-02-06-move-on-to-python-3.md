@@ -18,5 +18,5 @@ Well, what is your concerns? Here is a slide made by me probably can help you ou
 
 ### Resources
 
-- View the slide in full screen: [Move on to python 3](/files/slides/move-on-to-python-3.html)
-- Download the mindmap file: [move on to python 3.xmind](/files/Move-on-to-python3.xmind)
+- View the slide in full screen: [Move on to python 3](https://tobyqin.cn/docs/files/slides/move-on-to-python-3.html)
+- Download the mindmap file: [move on to python 3.xmind](https://tobyqin.cn/docs/files/Move-to-Python3.xmind)
