@@ -14,7 +14,7 @@ Well, what is your concerns? Here is a slide made by me probably can help you ou
 
 ### Slides
 
-<iframe src="/files/slides/move-on-to-python-3.html" width="100%" height="440px" frameborder="0" scrolling="no"> </iframe>
+<iframe src="https://tobyqin.cn/docs/files/slides/move-to-python-3.html" width="100%" height="440px" frameborder="0" scrolling="no"> </iframe>
 
 ### Resources
 
