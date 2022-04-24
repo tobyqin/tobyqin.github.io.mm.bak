@@ -8,7 +8,7 @@ layout: single
 
 > 文/大橙子
 
-![](https://tobyqin.github.io/images/nwdsl.jpg)
+![image](https://tobyqin.github.io/images/nwdsl.jpg)
 
 不清楚村上在表达什么，故事里的木月、直子、直子的姐姐、永泽的女朋友初美，以及哪所疗养院里的许许多多的人，忧郁、自杀。那么多人死了，也没有交代原因，我想这应该是那个年代日本社会经常发生的事情。
 

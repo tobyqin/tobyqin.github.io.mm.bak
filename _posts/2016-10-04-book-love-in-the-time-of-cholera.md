@@ -8,7 +8,7 @@ layout: single
 
 >文/大橙子
 
-![](https://tobyqin.github.io/images/love-in-cholera.jpg)
+![image](https://tobyqin.github.io/images/love-in-cholera.jpg)
 
 
 作者歌颂的应该不是爱情，至于男女主最后终在一起，我也不认为那是爱情。

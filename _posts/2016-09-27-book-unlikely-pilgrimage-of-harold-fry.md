@@ -8,7 +8,7 @@ layout: single
 
 > 文/大橙子
 
-![](https://tobyqin.github.io/images/haroldfry.jpg)
+![image](https://tobyqin.github.io/images/haroldfry.jpg)
 
 > **四星好评，不错哦！**
 

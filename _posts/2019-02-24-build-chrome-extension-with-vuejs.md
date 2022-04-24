@@ -241,4 +241,4 @@ new Vue({
 
 - https://github.com/tobyqin/chrome_vue_ext_demo
 
-![](https://raw.githubusercontent.com/tobyqin/chrome_vue_ext_demo/master/capture.png)
+![image](https://raw.githubusercontent.com/tobyqin/chrome_vue_ext_demo/master/capture.png)

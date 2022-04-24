@@ -8,7 +8,7 @@ layout: single
 
 > 文/大橙子
 
-![](https://tobyqin.github.io/images/jyzhd.jpg)
+![image](https://tobyqin.github.io/images/jyzhd.jpg)
 
 > **五星好评，强烈推荐！**
 

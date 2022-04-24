@@ -8,7 +8,7 @@ layout: single
 
 > 文/大橙子
 
-![](https://tobyqin.github.io/images/moon-and-peny.jpg)
+![image](https://tobyqin.github.io/images/moon-and-peny.jpg)
 
 
 一个伟大的艺术家，40 岁时，有稳定的家庭及职业，却突然放弃了一切，只为追求自己心中所深信的真理：“我必须画画！”

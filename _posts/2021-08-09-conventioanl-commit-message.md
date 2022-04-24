@@ -148,12 +148,12 @@ The `footer` should contain any information about **Breaking Changes** and is al
 1. IDEA 可以用 [Conventional Commit](https://plugins.jetbrains.com/plugin/13389-conventional-commit)
 2. VSCode 可以用 [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
 
-![](https://tobyqin.github.io/images/idea-conventional-commit.gif)
+![image](https://tobyqin.github.io/images/idea-conventional-commit.gif)
 
 我真的不是强行凑字数，它们的名字就这样。
 
 还有一些插件更厉害了，可以让你的代码不按规范写 Commit Message 就没法提交，只要大家觉得这样没毛病，就可以把这个插件带到你的团队，这个插件叫，[Husky](https://github.com/typicode/husky)。
 
-![](https://tobyqin.github.io/images/dog-husky.jpg)
+![image](https://tobyqin.github.io/images/dog-husky.jpg)
 
 关于 pre-commit-hook 和 husky 的使用，我们下次再讲，过了今天，愿你我的节操同在。

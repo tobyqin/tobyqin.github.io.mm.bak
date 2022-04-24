@@ -23,7 +23,7 @@ date: 2019-02-13
 
 所以这个方案适合新手机或者只用一台手机测试的情况，不是特别推荐。
 
-![](https://tobyqin.github.io/images/2019-02/201901051013491325.JPG)
+![image](https://tobyqin.github.io/images/2019-02/201901051013491325.JPG)
 
 ## 手动分享新图片
 
@@ -39,7 +39,7 @@ date: 2019-02-13
 
 这个方案我用下来没有太大问题，支持安卓和苹果设备。唯一的问题是弄一个公共账号，不难。
 
-![](https://tobyqin.github.io/images/2019-02/201901051004382311.JPG)
+![image](https://tobyqin.github.io/images/2019-02/201901051004382311.JPG)
 
 ## 集成截图工具到被测应用
 
@@ -55,7 +55,7 @@ date: 2019-02-13
 
 这是最后考虑的方案，简单来说就是自己写一个App，比如安装后在状态栏加一个同步按钮，或者贴在屏幕边缘等等。当你需要时点击一下进行同步，同时也提供个分享接口。做这样的一个App不算太难，不过还是需要时间和精力的投入，如果你有兴趣我们可以聊一聊。
 
-![](https://tobyqin.github.io/images/2019-02/201901141355323283.png)
+![image](https://tobyqin.github.io/images/2019-02/201901141355323283.png)
 
 基本功能大概是这样的：
 
@@ -67,7 +67,7 @@ date: 2019-02-13
 
 或许已经有类似的工具了，我没找到。但如果外部工具都不顺手的时候，自己做一个可能更符合需求。
 
-![](https://tobyqin.github.io/images/bee265372c.jpg)
+![image](https://tobyqin.github.io/images/bee265372c.jpg)
 
 ## 关于坚果云
 
@@ -83,7 +83,7 @@ date: 2019-02-13
 
 如果将来公有云都挂了，那么我们就整一个。
 
-![](https://tobyqin.github.io/images/201901051016009569.jpg)
+![image](https://tobyqin.github.io/images/201901051016009569.jpg)
 
 ## 我的工具论
 

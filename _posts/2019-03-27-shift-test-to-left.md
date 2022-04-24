@@ -94,5 +94,5 @@ date: 2019-03-27
 
 ## 参考资料
 
-- 培训课件： [阿里Devops体系和实践.svg](/files/阿里Devops体系和实践.svg)
+- 培训课件： [阿里Devops体系和实践.svg](/images/阿里Devops体系和实践.svg)
 - 参考文章：[What is shift-left testing?](https://blog.parasoft.com/what-is-the-shift-left-approach-to-software-testing)

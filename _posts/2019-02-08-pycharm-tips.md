@@ -15,29 +15,29 @@ PyCharm是笔者强烈推荐的Python IDE，如果你有EDU的邮箱可以直接
 
 默认PyCharm并不显示工具栏（Toolbar），在大多数IDE工具栏都放了最常用的操作，你可以通过主菜单-显示-菜单栏来显示工具栏。工具栏显示出来后你还可以通过右键定制上面的按钮，我会把一些跟VCS相关的操作放到上面，比如Fetch，Push，默认它只加了Pull和Commit。
 
-![](https://tobyqin.github.io/images/2019-02/20190208162340.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208162340.png)
 
 ## 智能提示匹配大小写
 
 可能是出于动态语言和性能的考虑，PyCharm的代码提示默认是大小写敏感的。例如你敲`b`会提示你`back`但不会提示你`BACK`，坦白讲挺不方便的，你可以改掉它。在设置里搜索`match case`就可以进行调整。
 
-![](https://tobyqin.github.io/images/2019-02/20190208163613.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208163613.png)
 
 ## 鼠标滚轮调整字体大小
 
 有时候我们讨论或者分享代码时，已经设置好的字体大小可能不太合适，很多IDE或者软件都是支持使用鼠标滚轮实时调整字体大小的，PyCharm中你需要手动启用这个功能。在设置中搜索`zoom`就可以找到对应设置项。
 
-![](https://tobyqin.github.io/images/2019-02/20190208170026.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208170026.png)
 
 ##修改单元测试框架
 
 如果你也有写单元测试的习惯，想必一定知道pytest，PyCharm可以很好地和很多知名的测试框架，但是默认它配置的是unittest，在设置中搜索`test`就可以调整成你常用的框架。
 
-![](https://tobyqin.github.io/images/2019-02/20190208164442.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208164442.png)
 
 比如调整成pytest之后，只要你的方法名前缀是`test_`，那么IDE就会提示你这是一个test，在前面会多出一个小三角形，让你很方便地运行或者调试。
 
-![](https://tobyqin.github.io/images/2019-02/20190208165147.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208165147.png)
 
 PyCharm支持的测试框架很多，但我喜欢的还是pytest。
 
@@ -70,19 +70,19 @@ PyCharm支持的测试框架很多，但我喜欢的还是pytest。
 
 IDE内置命令行工具其实是一个硬需求，你看现在，几乎你找不到一个不带命令行的IDE。PyCharm带的IDE最方便的地方在于，可以自动识别项目里的虚拟环境并启用它，这是外部命令行工具没法比拟的。
 
-![](https://tobyqin.github.io/images/2019-02/20190208174528.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208174528.png)
 
 **内置的Python Console很好用**
 
 写Python肯定是离不开即时解释器的，在PyCharm里你随手就可以用Python Console测试代码片段，它不仅提供了智能提示，还可以查看运行中的变量，甚至还能绘图画表，集成iPython Notebook。
 
-![](https://tobyqin.github.io/images/2019-02/20190208174959.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208174959.png)
 
 **修改运行时状态很爽**
 
 当你用PyCharm调试代码时，可以直接在Variables窗口看到运行变量，也可以直接修改这些变量的值，更厉害的是，你可以直接执行语句，点那个计算器一样的图标就行。
 
-![](https://tobyqin.github.io/images/2019-02/20190208175713.png)
+![image](https://tobyqin.github.io/images/2019-02/20190208175713.png)
 
 这个功能Visual Studio里也有，叫ImmediateWindow，可以节约你大把的调试时间。然而PyCharm少了一个Visual Studio里我非常喜欢的功能，拖拽当前断点。假设当前断点停在第40行，VS里可以直接拖到前面几行，例如第30行，人为控制这块代码反复运行。
 

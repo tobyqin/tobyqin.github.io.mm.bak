@@ -5,7 +5,7 @@ tags: [joke]
 date: 2019-02-11
 ---
 
-![](https://tobyqin.github.io/images/image-20190211215953837.png)
+![image](https://tobyqin.github.io/images/image-20190211215953837.png)
 
 
 

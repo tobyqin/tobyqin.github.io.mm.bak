@@ -8,7 +8,7 @@ layout: single
 
 > 文/大橙子
 
-![](https://tobyqin.github.io/images/xxj.jpg)
+![image](https://tobyqin.github.io/images/xxj.jpg)
 
 > 这本书是某人要求我读的，啊。
 
