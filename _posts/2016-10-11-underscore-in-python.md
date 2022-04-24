@@ -41,7 +41,7 @@ for _,value in func(): # 假如func每次会返回两个值，我们只关心第
 
 下面是思维导图的总结
 
-![](https://tobyqin.github.io/images/underscore-in-Python.png)
+![underscore-in-python](https://tobyqin.github.io/images/underscore-in-Python.png)
 
 ## 如何调用魔法方法
 
