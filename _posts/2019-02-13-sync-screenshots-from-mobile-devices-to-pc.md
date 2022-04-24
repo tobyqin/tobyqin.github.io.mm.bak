@@ -49,7 +49,7 @@ date: 2019-02-13
 
 这样的集成可以做的很深入，不仅截图，还有日志，当前运行数据等等一并捕获提交到bug管理工具，省心啊。
 
-![](https://tobyqin.github.io/images/2019-02/4abeb57ffe.jpg)
+![image](https://tobyqin.github.io/images/2019-02/4abeb57ffe.jpg)
 
 ## DIY一个同步工具
 
