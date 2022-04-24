@@ -13,7 +13,7 @@ date: 2019-05-06
 
 在坚果云网页端可以找到WebDAV的管理界面，开启后就可以得到一个密钥。
 
-![image-20190506210443671](https://tobyqin.github.io/images/image-20190506210443671.png)
+![image-20190506210443671](https://tobyqin.github.io/img/image-20190506210443671.png)
 
 有图形界面的操作系统坚果云都提供客户端了，现在我希望添加到坚果云的某个目录的文件能够自动checkin到github，从而实现随时写博客之类的功能。
 

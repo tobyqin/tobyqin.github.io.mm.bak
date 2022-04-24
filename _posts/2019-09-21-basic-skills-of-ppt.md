@@ -94,11 +94,11 @@ SmartArt或者图标可以设置批量动画或者轮播动画，需要通过动
 
 - 大神版：主题设置，图层调整，元素对齐，元素插入，格式调整，其他常用。
 
-![image-20190922211815182](https://tobyqin.github.io/images/image-20190922211815182.png)
+![image-20190922211815182](https://tobyqin.github.io/img/image-20190922211815182.png)
 
 - 基础版：基础工具，元素对齐，元素插入，格式调整。
 
-![image-20190922211847509](https://tobyqin.github.io/images/image-20190922211847509.png)
+![image-20190922211847509](https://tobyqin.github.io/img/image-20190922211847509.png)
 
 ### 格式刷和动画刷
 

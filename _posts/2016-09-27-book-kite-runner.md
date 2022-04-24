@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![Kite Runner](https://tobyqin.github.io/images/kiterunner.png)
+![Kite Runner](https://tobyqin.github.io/img/kiterunner.png)
 
 > **五星好评，强烈推荐！**
 

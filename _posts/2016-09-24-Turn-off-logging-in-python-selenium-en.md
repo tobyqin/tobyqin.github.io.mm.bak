@@ -9,7 +9,7 @@ Python selenium will print a lot of debug info for selenium driver, which will m
 
 <!-- more -->
 
-![image](https://tobyqin.github.io/images/selenium-debug-logging.png)
+![image](https://tobyqin.github.io/img/selenium-debug-logging.png)
 
 To turn it off, please add bellow code before test case.
 

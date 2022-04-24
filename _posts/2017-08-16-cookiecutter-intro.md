@@ -17,7 +17,7 @@ Cookiecutter英文的意思大概是饼干模型这么一类东西，可以让�
 
 这是一个就算你不用也应该了解的工具，cookiecutter可以让你快速从各种模板中建立工程，这个项目本身是python写的，但是支持的模板跨越了多种语言和各种领域，看图说话。
 
-![cookiecutter-categories](https://tobyqin.github.io/images/cookiecutter-categories.png)
+![cookiecutter-categories](https://tobyqin.github.io/img/cookiecutter-categories.png)
 
 ## 安装
 
@@ -43,11 +43,11 @@ IDE建房子是从地基开始，cookiecutter可以帮你把架子也搭好。
 cookiecutter https://github.com/sloria/cookiecutter-flask.git
 ```
 
-![cookiecutter-flask](https://tobyqin.github.io/images/cookiecutter-questions.png)
+![cookiecutter-flask](https://tobyqin.github.io/img/cookiecutter-questions.png)
 
 第三步，按照模板预设的问题一路next，你就新建了一个标准和专业的Flask工程。
 
-![cookiecutter-flask](https://tobyqin.github.io/images/cookiecutter-flask.png)
+![cookiecutter-flask](https://tobyqin.github.io/img/cookiecutter-flask.png)
 
 
 ## 优点和局限

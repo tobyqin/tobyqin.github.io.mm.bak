@@ -157,7 +157,7 @@ Rainbow.extend('log', [
 
 效果图如下：
 
-![自定义Log高亮](https://tobyqin.github.io/images/log-highlight.png)
+![自定义Log高亮](https://tobyqin.github.io/img/log-highlight.png)
 
 ## 一些改进方法
 
