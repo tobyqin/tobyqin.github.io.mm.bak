@@ -1,12 +1,8 @@
 ---
-title: About
-icon: fas fa-info-circle
-order: 4
+permalink: /about/
+title: "About"
+comments: true
 ---
-
-> 明月归心对万里,万里归心对月明。
-{: .prompt-tip }
-
 
 Hi, my name is Toby Qin. I am a software engineer in testing and DevOps. I have worked in this field for more than 10 years, if you have good opportunities want to share, welcome to contact me via GitHub.
 

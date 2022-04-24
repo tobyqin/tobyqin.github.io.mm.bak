@@ -3,7 +3,6 @@ title: 敏捷研发的关键性原则
 categories: [Tech]
 tags: [agile, scrum]
 date: 2021-11-28
-layout: single
 ---
 
 源自于最近阅读的一本书《卓有成效的敏捷》，作者 Steve McConnell。
