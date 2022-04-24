@@ -44,11 +44,11 @@ social:
   email: me@tobyqin.cn # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/toby_qin # change to your twitter homepage
+    # - https://twitter.com/toby_qin # change to your twitter homepage
     - https://github.com/tobyqin # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/toby-qin-2684a630/
 
 google_site_verification: # fill in to your verification string
 
@@ -89,7 +89,7 @@ avatar: '/assets/images/avatar.jpg'
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: 'https-betacat-online' # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -115,7 +115,7 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
 
-paginate: 10
+paginate: 15
 
 # ------------ The following options are not recommended to be modified ------------------
 
