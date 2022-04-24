@@ -3,7 +3,6 @@ title: 时间管理的小技巧
 categories: [Life]
 tags: [Life]
 date: 2021-04-06
-layout: single
 ---
 
 时间管理是老生常谈的话题，分享几个行之有效的办法。

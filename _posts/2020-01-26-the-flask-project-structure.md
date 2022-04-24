@@ -3,7 +3,6 @@ title: 组织Flask项目结构
 categories: [Tech]
 tags: [python, flask]
 date: 2020-01-26
-layout: single
 ---
 
 ![organizing](https://tobyqin.github.io/images/organizing.png)

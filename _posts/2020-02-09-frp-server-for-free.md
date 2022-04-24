@@ -3,7 +3,6 @@ title: 免费的FRP服务器
 categories: [Tech]
 tags: [frp, tips, free]
 date: 2020-02-09
-layout: single
 ---
 
 目前网上还是能找到免费的 FRP 服务器的，可以通过搜索引擎试试。

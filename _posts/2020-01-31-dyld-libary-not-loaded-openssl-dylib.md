@@ -3,7 +3,6 @@ title: 'Library not loaded: /usr/local/opt/openssl@1.1/lib/libcrypto.1.1.dylib'
 categories: [Tech]
 tags: [openssl, ssh, git]
 date: 2020-01-31
-layout: single
 ---
 
 因为升级了 MacOSX 和 openssl，然后 Jekyll 和 Python 都坏了，报各种错误。

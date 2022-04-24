@@ -3,7 +3,6 @@ title: Linux中的文件搜索
 categories: [Tech]
 tags: [linux, find, grep]
 date: 2020-02-29
-layout: single
 ---
 
 我们经常需要搜索文件名或者文件内容。

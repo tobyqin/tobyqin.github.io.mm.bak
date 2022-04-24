@@ -3,7 +3,6 @@ title: 微服务是什么鬼
 categories: [Tech]
 tags: [Micro-Services]
 date: 2021-03-02
-layout: single
 ---
 
 > 作者：后端技术杂谈

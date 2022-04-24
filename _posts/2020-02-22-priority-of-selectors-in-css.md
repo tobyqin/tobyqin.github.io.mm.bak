@@ -3,7 +3,6 @@ title: CSS中选择器的优先级
 categories: [Tech]
 tags: [css, selector, html]
 date: 2020-02-22
-layout: single
 ---
 
 CSS 选择器很灵活，弄不懂它的优先级可能会被坑的很惨。

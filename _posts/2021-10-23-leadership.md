@@ -3,7 +3,6 @@ title: 管理者核心能力修炼
 categories: [Life]
 tags: [Leadership, Management]
 date: 2021-10-23
-layout: single
 ---
 
 一个培训课程的核心内容提炼，且看且领悟。

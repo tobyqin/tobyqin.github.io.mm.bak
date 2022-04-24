@@ -3,7 +3,6 @@ title: 编程语录
 date: 2016-09-24 22:14:44
 categories: Tech
 tags: [programming, tips]
-layout: single
 ---
 
 > - 编程语言的最终目的是什么？是为了让编程更容易。

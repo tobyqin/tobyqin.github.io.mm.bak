@@ -8,7 +8,6 @@ tags:
   - file browser
   - min.io
   - file server
-layout: single
 ---
 
 尝试了几种开源的私有云盘（文件服务器）的解决方案，备忘一下。

@@ -3,7 +3,6 @@ title: 获取 Google Chrome 谷歌浏览器离线安装包
 date: 2016-10-18 21:35:01
 tags: [tips, google]
 categories: Tech
-layout: single
 ---
 
 谷歌浏览器的离线安装包还真有用。

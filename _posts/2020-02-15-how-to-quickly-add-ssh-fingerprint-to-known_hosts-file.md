@@ -3,7 +3,6 @@ title: 如何快速将SSH指纹添加到known_hosts文件中
 categories: [Tech]
 tags: [Linux, shell, ssh, git]
 date: 2020-02-15
-layout: single
 ---
 
 每次连接新的 SSH 或者从新的域名克隆代码时，总是会提示你是否信任，需要手动确认。

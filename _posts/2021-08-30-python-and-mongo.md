@@ -3,7 +3,6 @@ title: Python 和 MongoDB 其实很配
 categories: [Tech]
 tags: [Python, mongo]
 date: 2021-08-30
-layout: single
 ---
 
 MongoDB 其实就是一个大大的`JSON`，在 Python 的世界里`dict`也是最吃香的类型，所以，他们天生就是一对。

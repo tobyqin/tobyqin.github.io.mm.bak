@@ -3,7 +3,6 @@ title: Jenkins Pipeline 一点通
 categories: [Tech]
 tags: [Jenkins]
 date: 2021-02-01
-layout: single
 ---
 本文主要介绍在生产环境中持续集成与持续部署的使用，主要通过实现 Jenkins 流水线脚本自动发布应用到 Kubernetes 集群当中。
 

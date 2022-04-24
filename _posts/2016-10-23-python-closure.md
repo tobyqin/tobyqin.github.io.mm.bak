@@ -3,7 +3,6 @@ title: 说说Python中的闭包 - Closure
 categories: Tech
 tags: [python, python closure]
 date: 2016-10-23
-layout: single
 ---
 
 Python 中的闭包不是一个一说就能明白的概念，但是随着你往学习的深入，无论如何你都需要去了解这么一个东西。

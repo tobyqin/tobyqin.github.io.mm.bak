@@ -3,7 +3,6 @@ title: 在Windows平台使用IIS部署Flask网站
 categories: Tech
 tags: [python, flask, iis, deployment]
 date: 2017-03-27
-layout: single
 ---
 
 在 Windows 平台**部署**基于 Python 的网站是一件非常折腾的事情，Linux/Unix 平台下有很多选择，本文记录了 Flask 部署到 IIS 的主要步骤，希望对你有所帮助。

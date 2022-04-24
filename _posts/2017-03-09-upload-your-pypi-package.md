@@ -3,7 +3,6 @@ title: 上传并发布你自己发明的轮子 - Python PyPI 实践
 categories: Tech
 tags: [python, PyPI]
 date: 2017-03-09
-layout: single
 ---
 
 Pypi 的发布实践。

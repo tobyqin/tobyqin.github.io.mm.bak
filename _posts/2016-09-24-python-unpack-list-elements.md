@@ -3,7 +3,6 @@ title: Python：将数组中的元素导出到变量中 (unpacking)
 tags: [python, python list, tips]
 date: 2016-09-24 23:03:34
 categories: Tech
-layout: single
 ---
 
 Python 算法备忘。

@@ -3,7 +3,6 @@ title: Linux中的history命令
 categories: [Tech]
 tags: [Linux, shell]
 date: 2020-02-12
-layout: single
 ---
 
 `history`是用来显示命令历史的命令。

@@ -3,7 +3,6 @@ title: 读书 - 《西厢记》
 date: 2016-09-30 23:58:56
 tags: book
 categories: Reading
-layout: single
 ---
 
 > 文/大橙子

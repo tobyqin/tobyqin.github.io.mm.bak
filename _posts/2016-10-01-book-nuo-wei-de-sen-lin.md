@@ -3,7 +3,6 @@ title: 读书 - 《挪威的森林》
 date: 2016-10-01 09:32:21
 tags: book
 categories: Reading
-layout: single
 ---
 
 > 文/大橙子

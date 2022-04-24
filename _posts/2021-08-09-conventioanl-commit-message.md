@@ -3,7 +3,6 @@ title: 程序员的节操
 categories: [Tech]
 tags: [DevOps, Code]
 date: 2021-08-09
-layout: single
 ---
 
 从代码提交记录能看出一个程序员的节操，真的。

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: 自动为Flask写的API生成帮助文档
 categories: [Tech]
 tags: [python, flask, api-doc]

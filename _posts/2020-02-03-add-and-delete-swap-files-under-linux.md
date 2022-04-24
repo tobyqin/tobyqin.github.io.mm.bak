@@ -3,7 +3,6 @@ title: Linux 添加和删除 Swap 文件
 categories: [Tech]
 tags: [linux, swap]
 date: 2020-02-03
-layout: single
 ---
 
 Linux 内核为了提高读写效率与速度，会将文件在内存中进行缓存，Swap 是通过磁盘文件的形式给系统增加虚拟内存的解决方案。

@@ -3,7 +3,6 @@ title: CentOS里的防火墙配置
 categories: [Tech]
 tags: [linux, centos, firewall]
 date: 2020-03-06
-layout: single
 ---
 
 CentOS 6 以前，内置的防火墙是 iptables，升级到 7 以后就变成了 firwalld。

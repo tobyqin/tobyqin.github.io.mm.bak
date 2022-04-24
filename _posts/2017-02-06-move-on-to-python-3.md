@@ -3,7 +3,6 @@ title: Move on to Python 3
 categories: Tech
 tags: [python, python 3]
 date: 2017-02-06
-layout: single
 ---
 
 Do we want to move on to Python 3?

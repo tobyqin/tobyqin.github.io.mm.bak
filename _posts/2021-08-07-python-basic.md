@@ -3,7 +3,6 @@ title: Python 基础简明教程
 categories: [Tech]
 tags: [Python]
 date: 2021-08-07
-layout: single
 ---
 
 这是 Python 程序设计的简明教程，假设你已经有其他高级编程语言的经验。

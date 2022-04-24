@@ -3,7 +3,6 @@ title: Linux新建用户没有用户目录
 categories: [Tech]
 tags: [Linux, shell]
 date: 2020-02-09
-layout: single
 ---
 
 简而言之，用`adduser`而不是`useradd`，用`deluser`而不是`userdel`。

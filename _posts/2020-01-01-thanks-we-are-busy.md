@@ -3,7 +3,6 @@ title: 谢谢，我们很忙
 categories: [Life]
 tags: [comics, geek, tips, devops]
 date: 2020-01-01
-layout: single
 ---
 
 ![too-busy-to-improve](https://tobyqin.github.io/images/too-busy-to-improve.png)

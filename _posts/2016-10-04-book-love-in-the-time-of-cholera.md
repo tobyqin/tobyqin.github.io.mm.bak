@@ -3,7 +3,6 @@ title: 读书 - 《霍乱时期的爱情》
 date: 2016-10-04 14:35:21
 tags: book
 categories: Reading
-layout: single
 ---
 
 >文/大橙子

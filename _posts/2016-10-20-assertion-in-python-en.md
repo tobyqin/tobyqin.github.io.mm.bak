@@ -3,7 +3,6 @@ title: Improve Assertion In Python
 date: 2016-10-20
 tags: [python, software testing]
 categories: Tech
-layout: single
 ---
 
 Assertion is the basics of testing.

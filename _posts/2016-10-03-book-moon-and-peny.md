@@ -3,7 +3,6 @@ title: 读书 - 《月亮与六便士》
 date: 2016-10-03 14:35:21
 tags: book
 categories: Reading
-layout: single
 ---
 
 > 文/大橙子

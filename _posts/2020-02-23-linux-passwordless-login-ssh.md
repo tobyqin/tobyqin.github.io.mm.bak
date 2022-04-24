@@ -3,7 +3,6 @@ title: Linux免密码登录SSH
 categories: [Tech]
 tags: [linux, ssh, shell]
 date: 2020-02-23
-layout: single
 ---
 
 无密钥登录可以更快乐一点。

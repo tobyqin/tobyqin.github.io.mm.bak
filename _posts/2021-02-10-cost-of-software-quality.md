@@ -3,7 +3,6 @@ title: 软件质量成本
 categories: [Tech]
 tags: [Quality]
 date: 2021-02-10
-layout: single
 ---
 
 > 翻译自软件领域神级人物 Martin Fowler 的文章。

@@ -3,7 +3,6 @@ title: Python中的反转字符串问题
 date: 2016-10-18 09:46:00
 tags: [python, regex]
 categories: Quiz
-layout: single
 ---
 
 **按单词反转字符串**是一道很常见的面试题。在 Python 中实现起来非常简单。

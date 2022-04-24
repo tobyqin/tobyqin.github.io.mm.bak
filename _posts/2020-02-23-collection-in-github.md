@@ -3,7 +3,6 @@ title: Github里的Collection
 categories: [Tech]
 tags: [github, tips]
 date: 2020-02-23
-layout: single
 ---
 
 在 Github 里有个功能叫 Collection。

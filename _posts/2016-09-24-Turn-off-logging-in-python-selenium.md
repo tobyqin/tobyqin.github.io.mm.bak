@@ -3,7 +3,6 @@ title: 设置 Python Selenium 中的Log显示信息
 tags: [python, selenium, logging, tips]
 date: 2016-09-24 22:14:44
 categories: Tech
-layout: single
 ---
 
 Python Selenium 默认会往控制台和 Log 文件里写入大量的 DEBUG 信息，比如下面这张图。

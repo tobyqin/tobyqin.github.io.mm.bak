@@ -3,7 +3,6 @@ title: 部署一个私有的在线绘图服务
 categories: [Tech]
 tags: [docker, draw.io, python, flask]
 date: 2020-04-26
-layout: single
 ---
 
 现在很多服务都已经云端化了，浏览器早已不是只用来浏览信息的浏览器了。

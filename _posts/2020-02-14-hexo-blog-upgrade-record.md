@@ -3,7 +3,6 @@ title: Hexo博客升级记录
 categories: [Life]
 tags: [blog, hexo, cloudflare, next]
 date: 2020-02-14
-layout: single
 ---
 
 抽了半天时间升级一下博客程序。

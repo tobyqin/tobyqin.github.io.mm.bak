@@ -3,7 +3,6 @@ title: 一行代码让浏览器变成记事本
 date: 2016-09-28 15:02:46
 tags: [javascript, tips]
 categories: Tech
-layout: single
 ---
 
 有时候你为了测试富文本的显示效果，需要新建一个 html 或者 word？

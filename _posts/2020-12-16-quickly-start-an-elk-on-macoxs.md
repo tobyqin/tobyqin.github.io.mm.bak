@@ -3,7 +3,6 @@ title: MacOXS上快速启动一个ELK
 categories: [Tech]
 tags: [Tech]
 date: 2020-12-16
-layout: single
 ---
 
 万物都可以用Docker快速启动。

@@ -3,7 +3,6 @@ title: Python装饰器的另类用法
 categories: Tech
 tags: [python, python decorator]
 date: 2016-10-30
-layout: single
 ---
 
 之前有比较系统介绍过 Python 的装饰器（请查阅《[详解 Python 装饰器](https://tobyqin.github.io/posts/2016-10-27/python-decorator/)》），本文算是一个补充。今天我们一起探讨一下装饰器的另类用法。

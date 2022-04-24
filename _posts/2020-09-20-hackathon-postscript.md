@@ -3,7 +3,6 @@ title: 黑客马拉松后记
 categories: [Tech]
 tags: [hackathon, tech, teamwork]
 date: 2020-09-20
-layout: single
 ---
 
 今年已经参加了两次黑客马拉松。

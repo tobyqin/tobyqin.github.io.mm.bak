@@ -3,7 +3,6 @@ title: 读书 - 《解忧杂货店》
 date: 2016-09-30 23:14:53
 tags: book
 categories: Reading
-layout: single
 ---
 
 > 文/大橙子

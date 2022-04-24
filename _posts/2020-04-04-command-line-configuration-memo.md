@@ -3,7 +3,6 @@ title: 命令行配置备忘
 categories: [Tech]
 tags: [linux, shell, bash, alias]
 date: 2020-04-04
-layout: single
 ---
 
 换到新的机器，命令行配置少不了。

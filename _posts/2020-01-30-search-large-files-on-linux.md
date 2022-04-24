@@ -3,7 +3,6 @@ title: 在Linux或者Mac OSX上查找大文件
 categories: [Tech]
 tags: [linux, du, tips]
 date: 2020-01-30
-layout: single
 ---
 
 在 Mac OSX 上尚且还有一些图形工具可以帮助查找和清理大文件，在 Linux 只能依靠命令行。其实也不难，这次总结一下，省的下次还去搜索。
