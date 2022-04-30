@@ -25,5 +25,8 @@ jobs:
           ruby-version: 2.7
           bundler-cache: true
 
+      - name: Organize
+        run: bash tools/organize.sh
+
       - name: Deploy
         run: bash tools/deploy.sh
