@@ -236,3 +236,9 @@ overlayfs:/overlay       14.2M    700.0K     12.8M   5% /userdisk/appdata/chroot
 ```
 
 看上去能玩的东西挺多，暂时没爬坑，后续再说。
+
+顺便提一下，mixbox 里集成的 shadowsocks 其实并不好用：
+
+1. 需要占用不少空间，etc 目录安装不下。
+2. v2ray 支持不友好，我尝试好多方法还是没成功。
+3. 启动不成功，github 还类似的问题不少。
