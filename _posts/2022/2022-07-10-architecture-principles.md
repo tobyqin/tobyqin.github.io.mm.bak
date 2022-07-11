@@ -37,9 +37,9 @@ date: 2022-07-10
 14. 隔离故障。通过断路避免故障传播和交叉影响。
 15. 自动化。如果机器可以做，就不要依赖于人。
 
-![](https://tobyqin.cn/img/202207112234523.png)
+![](https://raw.githubusercontent.com/tobyqin/img/master/202207112234523.png)
 
-![](https://tobyqin.cn/img/202207112234113.png)
+![](https://raw.githubusercontent.com/tobyqin/img/master/202207112234113.png)
 
 更多细节可以[查看这里](https://akfpartners.com/growth-blog/role-of-architectural-principles-in-software-development-and-systems-develo)。
 

@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://tobyqin.github.io/img/huo-zhe.jpg)
+![image](https://raw.githubusercontent.com/tobyqin/img/master/huo-zhe.jpg)
 
 没什么好说的，白花花的语言，依托中国抗日战后至今的时代背景，以富贵的经历叙述了很多中国式悲哀。
 

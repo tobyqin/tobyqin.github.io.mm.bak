@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://tobyqin.github.io/img/jyzhd.jpg)
+![image](https://raw.githubusercontent.com/tobyqin/img/master/jyzhd.jpg)
 
 > **五星好评，强烈推荐！**
 

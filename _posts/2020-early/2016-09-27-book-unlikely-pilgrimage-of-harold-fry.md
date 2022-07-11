@@ -7,7 +7,7 @@ categories: Reading
 
 > 文/大橙子
 
-![image](https://tobyqin.github.io/img/haroldfry.jpg)
+![image](https://raw.githubusercontent.com/tobyqin/img/master/haroldfry.jpg)
 
 > **四星好评，不错哦！**
 

@@ -9,4 +9,4 @@ date: 2020-02-28
 
 <!-- more -->
 
-![etc_passwd](https://tobyqin.github.io/img/etc_passwd.svg)
+![etc_passwd](https://raw.githubusercontent.com/tobyqin/img/master/etc_passwd.svg)

@@ -1,31 +1,31 @@
 ---
-title: 	用命令行在Linux同步坚果云
+title: 用命令行在Linux同步坚果云
 categories: [Tech]
-tags: [webdav,jianguoyun,Linux]
+tags: [webdav, jianguoyun, Linux]
 date: 2019-05-06
 ---
 
-坚果云更Linux也可以配合的很好。
+坚果云更 Linux 也可以配合的很好。
 
 <!-- more -->
 
-## 开启WebDAV
+## 开启 WebDAV
 
-在坚果云网页端可以找到WebDAV的管理界面，开启后就可以得到一个密钥。
+在坚果云网页端可以找到 WebDAV 的管理界面，开启后就可以得到一个密钥。
 
-![image-20190506210443671](https://tobyqin.github.io/img/image-20190506210443671.png)
+![image-20190506210443671](https://raw.githubusercontent.com/tobyqin/img/master/image-20190506210443671.png)
 
-有图形界面的操作系统坚果云都提供客户端了，现在我希望添加到坚果云的某个目录的文件能够自动checkin到github，从而实现随时写博客之类的功能。
+有图形界面的操作系统坚果云都提供客户端了，现在我希望添加到坚果云的某个目录的文件能够自动 checkin 到 github，从而实现随时写博客之类的功能。
 
-## cURL读取 WebDAV 目录文件
+## cURL 读取 WebDAV 目录文件
 
 ```bash
 curl -X PROPFIND --user 'user@xxx.com:password' 'https://dav.jianguoyun.com/dav/Blog/@TODO'
 ```
 
-以上命令会返回这个目录里所有的信息，不过是xml的，不太好处理。
+以上命令会返回这个目录里所有的信息，不过是 xml 的，不太好处理。
 
-## Python 读取 WebDAV目录文件
+## Python 读取 WebDAV 目录文件
 
 只要能找到合适的包，Python 做什么都很容易，读取 WebDAV 目前我发现 [fs.webdavfs](https://pypi.org/project/fs.webdavfs/) 相对好用一点。
 
@@ -87,13 +87,13 @@ for file in $files; do
 done
 ```
 
-在脚本开始部分先通过 Python 获取 WebDAV 的目录中的文件，然后用cURL把文件拉到本地，接着从远端目录删掉这个文件。
+在脚本开始部分先通过 Python 获取 WebDAV 的目录中的文件，然后用 cURL 把文件拉到本地，接着从远端目录删掉这个文件。
 
 上面步骤完成后文件就会被下载到本地的 @TODO 目录，再把这个目录里的文件稍作加工，就可以发布了。
 
 ## 上传文件到 WebDAV
 
-从简单而言，还是用cURL：
+从简单而言，还是用 cURL：
 
 ```sh
 upload_file() {
@@ -104,7 +104,7 @@ upload_file() {
 }
 ```
 
-有了这个方法，就可以实现反向从git同步文件到坚果云。
+有了这个方法，就可以实现反向从 git 同步文件到坚果云。
 
 ## 其他一些心得
 
@@ -117,13 +117,12 @@ bypy upload ...
 bypy download ...
 ```
 
-同步脚本写完后，可以用[crontab](https://crontab.guru/)在你的云主机上定时执行，比如没10分钟去坚果云查询一下，如果有就做后续操作。
+同步脚本写完后，可以用[crontab](https://crontab.guru/)在你的云主机上定时执行，比如没 10 分钟去坚果云查询一下，如果有就做后续操作。
 
-Python 操作 WebDAV的包不是特别多，好用的更少。
+Python 操作 WebDAV 的包不是特别多，好用的更少。
 
-使用cURL操作WebDAV是也要注意文件名中编码的问题，比如中文，空格，特殊字符都需要转义。
+使用 cURL 操作 WebDAV 是也要注意文件名中编码的问题，比如中文，空格，特殊字符都需要转义。
 
-更多cURL的操作可以google或者看[这篇文档](https://www.qed42.com/blog/using-curl-commands-webdav)。
+更多 cURL 的操作可以 google 或者看[这篇文档](https://www.qed42.com/blog/using-curl-commands-webdav)。
 
-还有一个办法是把 WebDAV 挂载到Linux上，大概搜索了一下 [davfs2](https://wiki.archlinux.org/index.php/Davfs2) 发现也挺折腾的，不去弄了。
-
+还有一个办法是把 WebDAV 挂载到 Linux 上，大概搜索了一下 [davfs2](https://wiki.archlinux.org/index.php/Davfs2) 发现也挺折腾的，不去弄了。

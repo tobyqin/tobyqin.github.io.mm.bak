@@ -5,10 +5,9 @@ tags: book
 categories: Reading
 ---
 
->文/大橙子
+> 文/大橙子
 
-![image](https://tobyqin.github.io/img/love-in-cholera.jpg)
-
+![image](https://raw.githubusercontent.com/tobyqin/img/master/love-in-cholera.jpg)
 
 作者歌颂的应该不是爱情，至于男女主最后终在一起，我也不认为那是爱情。
 
