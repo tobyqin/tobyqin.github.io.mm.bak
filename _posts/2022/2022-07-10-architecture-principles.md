@@ -2,7 +2,7 @@
 title: 架构设计原则
 categories: [Tech]
 tags: [Tech, Architecture]
-date: 2022-05-05
+date: 2022-07-10
 ---
 
 摘录自《架构及未来》中的一小部分内容。
