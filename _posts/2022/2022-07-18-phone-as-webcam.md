@@ -9,7 +9,7 @@ date: 2022-07-10
 
 ## 虚拟摄像头 OBS
 
-官网：https://obsproject.com/
+官网：<https://obsproject.com/>
 
 开源免费的虚拟摄像头，有很多专业的功能，可以模拟场景，声音，视频等等。我不需要那么多功能，只要模拟一个摄像头就行，选择一张自己的大头照做摄像头的内容就行。
 
@@ -26,7 +26,7 @@ date: 2022-07-10
 
 ## 手机或者 iPad 当摄像头 iriun
 
-官网：https://iriun.com/
+官网：<https://iriun.com/>
 
 ![](https://raw.githubusercontent.com/tobyqin/img/master//202207182138910.png)
 
@@ -36,6 +36,6 @@ date: 2022-07-10
 
 ## 备用方案 neuralcam live
 
-官网：https://neural.cam/live/
+官网：<https://neural.cam/live/>
 
 这个 app 貌似也能用，不过不太稳定，一会又一会没有，必须要连接数据线才可以，自从我找到第二个选项后就没管它了，放在这权当备忘。
