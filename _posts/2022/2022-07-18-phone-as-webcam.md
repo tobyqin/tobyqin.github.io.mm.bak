@@ -2,7 +2,7 @@
 title: 手机当做 PC 或者 Mac 的摄像头
 categories: [Tech]
 tags: [Tech, Tips, Camera]
-date: 2022-07-10
+date: 2022-07-18
 ---
 
 电脑上没有摄像头，可是开会需要用，用手机开屏幕太小，找到一些软件可以解决这个问题。
