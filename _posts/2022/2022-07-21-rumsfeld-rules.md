@@ -29,7 +29,7 @@ A’s hire A’s. B’s hire C’s. If you want to find out which managers are A
 
 What you measure improves. By measuring or inspecting, you instinctively act and make decisions in ways that make you more likely to achieve the desired result.
 
-你度量什么就会改进什么。通过度量和观察，你会本能地去做出反应和决策，这样可以让你更有可能达到你想要的结果。
+你度量什么就会改进什么。通过度量和观察，你会本能地去做出反应和决策，这样可以让你更有可能达到你想要的目标。
 
 ## 面对错误
 
