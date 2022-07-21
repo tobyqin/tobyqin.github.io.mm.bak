@@ -57,7 +57,7 @@ Without the best people in place, the best ideas don’t matter.
 
 The most motivated employees believe in the why of what they are doing.
 
-最有动力的员工相信自己所做一切的意义和价值。
+最有动力的员工知道自己为什么要做这些事，这些事能给他带来什么价值和意义。
 
 ## 好的想法
 
@@ -73,13 +73,13 @@ If you are working from your inbox, you are working on other people’s prioriti
 
 If you don’t know what your top three priorities are, you don’t have priorities.
 
-如果你不知最重要的三件事是什么，说明你对重要没有概念。
+如果你不知最重要的三件事是什么，说明你对重要性没有概念。
 
 ## 控制和自由
 
 Don’t “over control” like a novice pilot. Stay loose enough from the flow that you can observe and calibrate.
 
-不要像一个新手飞行员那样过度控制。保持足够自由，这样你才能去观察和调整自己的姿态。
+不要像一个新手飞行员那样过度控制你所能控制的。保持足够自由，这样你才能去观察和调整自己的姿态。
 
 ## 自愿跟随
 
@@ -95,11 +95,11 @@ Find out what people are working on, what their worries are, what they are wonde
 
 Trial and error are the essence of discovery. Your organization should be hospitable to both.
 
-尝试和犯错是探索的本质。你的组织应该鼓励和支持这样的行为。
+尝试和犯错是探索的本质，你的组织应该鼓励和支持这样的行为。
 
 The most successful organizations create an environment that is hospitable to risk-taking, innovation, and creativity.
 
-最成功的组织创造了一个适合冒险、创新和创造的环境。
+最成功的组织会去创造了一个适合冒险、创新和创造的环境。
 
 ## 简单才高效
 
@@ -115,4 +115,4 @@ Prudent managers prune regularly.
 
 A useful lesson for managers is to provide your troops guidance, but then step out of the way and let them do their jobs. If you’ve picked the right people, and trained them well, chances are they will succeed.
 
-对于管理者来说，最有用的建议是提供指导，然后让开，让他们自己去完成自己的工作。如果你选择了合适的人，给他们良好的训练，他们会走向成功。
+对于管理者来说，最有用的建议是提供指导，然后让开，让他们去完成自己的工作。如果你选择了合适的人，给他们良好的训练，他们会走向成功。
