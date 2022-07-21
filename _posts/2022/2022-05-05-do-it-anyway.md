@@ -1,5 +1,5 @@
 ---
-title: 干就完事了
+title: 努力是自己的事情
 categories: [Life]
 tags: [Poem, Culture]
 date: 2022-05-05
