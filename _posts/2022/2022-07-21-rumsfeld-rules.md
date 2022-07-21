@@ -43,6 +43,8 @@ Those who write and speak clearly—free of jargon and cant—are most likely to
 
 那些能写清楚和说清楚事情的人 —— 没有行话和拐弯抹角 —— 他们可能是是那些思维最清晰的人，他们对做出更好的决策和制定健全的制度至关重要。
 
+## 不同的声音
+
 If everyone in the room seems convinced of the brilliance of an idea, it may be a sign that the organization would benefit from more dissent and debate.
 
 如果房间里每个人都相信那一个想法完美无比，无懈可击，这可能表明组织里更缺少的是不同的声音和辩论。
@@ -52,10 +54,6 @@ If everyone in the room seems convinced of the brilliance of an idea, it may be 
 Without the best people in place, the best ideas don’t matter.
 
 没有找到最合适的人，再好的想法也没有意义。
-
-Prudent managers prune regularly.
-
-谨慎的管理者会定期给自己做减法，并不是越多越好。
 
 The most motivated employees believe in the why of what they are doing.
 
@@ -77,11 +75,13 @@ If you don’t know what your top three priorities are, you don’t have priorit
 
 如果你不知最重要的三件事是什么，说明你没有优先级的概念。
 
-## 控制和授权
+## 控制和自由
 
 Don’t “over control” like a novice pilot. Stay loose enough from the flow that you can observe and calibrate.
 
 不要像一个新手飞行员那样过分控制。保持足够自由，这样你才能去观察和调整自己的姿态。
+
+## 自愿跟随
 
 Leadership is by consent, not command. A leader must persuade.
 
@@ -91,10 +91,28 @@ Leadership is by consent, not command. A leader must persuade.
 
 Find out what people are working on, what their worries are, what they are wondering about, and what ideas they might have. Learning new things and forging new relationships takes time for a leader, but it is well worth it.
 
+了解人们正在做什么，他们担心什么，他们想要什么，他们有什么新鲜的想法。对于领导者来说，学习新的东西和建立新的关系都需要时间，但这是非常值得做的事情。
+
 Trial and error are the essence of discovery. Your organization should be hospitable to both.
+
+尝试和犯错是探索的本质。你的组织应该鼓励和允许这样的行为。
 
 The most successful organizations create an environment that is hospitable to risk-taking, innovation, and creativity.
 
+最成功的组织创造了一个适合冒险、创新和创造的环境。
+
+## 简单才高效
+
 Reduce layers of management. They put distance between the top of an organization and the customers.
 
+减少管理的层级，更少的管理层级可以把客户和组织之间的距离变得更短。
+
+Prudent managers prune regularly.
+
+谨慎的管理者会定期给自己做减法，并不是越多越好。
+
+## 指导后走开
+
 A useful lesson for managers is to provide your troops guidance, but then step out of the way and let them do their jobs. If you’ve picked the right people, and trained them well, chances are they will succeed.
+
+对于管理者来说，最有用的教训是提供指导，然后让开，让他们自己去做自己的工作。如果你选择了合适的人，对他们进行良好的训练，他们很可能会成功。
