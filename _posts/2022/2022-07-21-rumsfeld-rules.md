@@ -13,43 +13,43 @@ date: 2022-07-21
 
 他写过一本关于自己的书，叫《拉姆斯菲尔德的规则：在商业，政治，战争和人生中的领导力》，非常精炼的总结了他一生中遵循的规则，我在这里列举并尝试翻译，欢迎留言指正，希望对你有所启发。
 
-## 已知的未知
+## 已知未知
 
 There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don't know. But there are also unknown unknowns. There are things we don't know we don't know.
 
 有些事情我们知道自己知道。有些事情我们知道自己不知道。但是记住，有些事情我们并不知道我们不知道，保持谦虚和谨慎是每个管理者应该有的态度。
 
-## 找到优秀的人
+## 优秀的人
 
 A’s hire A’s. B’s hire C’s. If you want to find out which managers are A’s and which are B’s, take a hard look at the teams that surround them.
 
 优秀的人会雇佣更优秀的人，不那么优秀的人会雇佣更不那么优秀的人。怎么才能知道哪些管理者是优秀的那么是不那么优秀的？仔细观察他的团队和他身边的人你就会有答案。
 
-## 度量驱动改进
+## 度量改进
 
 What you measure improves. By measuring or inspecting, you instinctively act and make decisions in ways that make you more likely to achieve the desired result.
 
 你度量什么就会改进什么。通过度量和观察，你会本能地去做出反应和决策，这样可以让你更有可能达到你想要的结果。
 
-## 提前面对错误
+## 面对错误
 
 Bad news doesn’t get better with time. If you have fouled up something, it’s best to tell the boss fast.
 
 坏消息不会越来越好，只会越来越坏。如果你已经搞砸了一些事，最好立刻告诉你的老板。
 
-## 和头脑清醒的人合作
+## 头脑清醒
 
 Those who write and speak clearly—free of jargon and cant—are most likely to be the ones who think clearly and are therefore indispensable for good decision-making and sound policy.
 
 那些能写清楚和说清楚事情的人 —— 没有行话和拐弯抹角 —— 他们可能是是那些思维最清晰的人，他们对做出更好的决策和制定健全的制度至关重要。
 
-## 不同的声音
+## 不同声音
 
 If everyone in the room seems convinced of the brilliance of an idea, it may be a sign that the organization would benefit from more dissent and debate.
 
 如果房间里每个人都相信那一个想法完美无比，无懈可击，这可能表明组织里更缺少的是不同的声音和辩论。
 
-## 人比想法更重要
+## 人更重要
 
 Without the best people in place, the best ideas don’t matter.
 
@@ -65,7 +65,7 @@ Some of the best ideas can come from the sparks and thoughts generated during li
 
 一些最好的想法可能来自于会议桌上热烈的讨论，或者持有相反的观点的人之间的午餐对话，争论时的火花不见得是坏事。
 
-## 优先级
+## 重要的事
 
 If you are working from your inbox, you are working on other people’s priorities.
 
